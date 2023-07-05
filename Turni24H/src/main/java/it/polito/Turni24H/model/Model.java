@@ -78,7 +78,7 @@ public class Model {
 
 		for(int i = 0; i< profondita ; i++) {
 			contatore = 0; 
-			Collections.shuffle(turni);  									//ordino casualmete i turni
+			Collections.shuffle(turni);		//ordino casualmete i turni
 			cerca(parziale, richiestiOff, weekend, straordinario, turniTotaliRichiesti, migliorPunteggio);	
 			System.out.println(i+" = "+ miglioriAccoppiamenti.size()+ " di punteggio: " + this.migliorPunteggio);
 		}
@@ -133,7 +133,6 @@ public class Model {
 			punteggio = p;
 			
 		}
-		
 		
 		
 		for(Turno t : turni) {

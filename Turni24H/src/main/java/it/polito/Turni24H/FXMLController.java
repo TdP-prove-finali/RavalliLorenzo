@@ -227,7 +227,7 @@ public class FXMLController {
 				+ "Ricorda alzando il numero di PROFONDITA' aumenta il tempo di calcolo ma anche la precisione! \n\n"
 				+ "Ricorda se aumenti gli STRAORDINARI possibili diminuirà la felicità dei dipendenti!\n\n"
 				+ "Ricorda più WEEKEND garantisci più si complica trovare la soluzione ottimale\n\n"
-				+ "Ricorda accettare le RICHIESTE dei dipendente aumenterà la felicita e semplificherà l'algoritmo");
+				+ "Ricorda accettare le RICHIESTE dei dipendente aumenterà la felicita");
 		
 		this.settimana_cbx.getItems().add("Prima settimana");
 		this.settimana_cbx.getItems().add("Seconda settimana");
@@ -257,6 +257,7 @@ public class FXMLController {
 	this.turniNonCompl_txt.clear();
 	this.staffStraordinario_txt.clear();
 	this.staffOreMeno_txt.clear();
+	this.staffOreDisp_txt.clear();
 	this.settimana_cbx.getItems().clear();
 	table.getItems().clear();
 		
