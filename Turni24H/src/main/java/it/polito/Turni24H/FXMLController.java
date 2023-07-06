@@ -237,7 +237,6 @@ public class FXMLController {
 		this.risultati_Tab.setDisable(false);
 		this.turni_Tab.setDisable(false);
 		
-		this.listaVincoli_txt.appendText(vincoli());
 	}
 
 	private String vincoli() {
