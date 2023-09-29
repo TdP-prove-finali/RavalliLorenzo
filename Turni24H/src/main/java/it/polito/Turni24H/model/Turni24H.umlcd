@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_I9Z_oFlbEe6zgPim6hxQEQ">
+  <modelElement href="Turni24H.uml#_JGoNEFlbEe6zgPim6hxQEQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJhJAFlbEe6zgPim6hxQEQ" sourceAnchor="98.0,0.0" targetAnchor="0.0,66.0" target="_JJeswFlbEe6zgPim6hxQEQ" source="_JJiXKVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH3jM1lbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNGFlcEe6zgPim6hxQEQ" sourceY="-1035" targetX="-16"/>
+    <stereotypes xmi:id="_JJhJBFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH3jNVlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJhJAVlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTMpc1lbEe6zgPim6hxQEQ" position="-49.0,191.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJhJAllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH3jNFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTMpcllbEe6zgPim6hxQEQ" position="-16.0,-105.0"/>
+      <visibility xmi:id="_JJhwEVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJhwEFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJhJA1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="turno" navigable="true">
+      <modelElement href="Turni24H.uml#_JHqu4VlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTMpdFlbEe6zgPim6hxQEQ" position="-99.0,0.0"/>
+      <visibility xmi:id="_JJhwE1lbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJhwEllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJiXIFlbEe6zgPim6hxQEQ" sourceAnchor="68.0,0.0" targetAnchor="73.0,0.0" target="_JJpr4FlbEe6zgPim6hxQEQ" source="_JJiXKVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH3jMFlbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNGVlcEe6zgPim6hxQEQ" sourceY="-1121" targetX="-643" targetY="-15"/>
+    <bendpoints xmi:id="_EAKNGllcEe6zgPim6hxQEQ" sourceX="643" sourceY="-1121" targetY="-15"/>
+    <stereotypes xmi:id="_JJiXIVlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH3jMllbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJiXIllbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTMpdllbEe6zgPim6hxQEQ" position="-280.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJiXI1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH3jMVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTMpdVlbEe6zgPim6hxQEQ" position="-16.0,-140.0"/>
+      <visibility xmi:id="_JJiXJFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXJVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJiXJllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="staff" navigable="true">
+      <modelElement href="Turni24H.uml#_JHqH0FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTNQgFlbEe6zgPim6hxQEQ" position="-95.0,-58.0"/>
+      <visibility xmi:id="_JJiXJ1lbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJiXKFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJjlQFlbEe6zgPim6hxQEQ" sourceAnchor="136.0,211.0" targetAnchor="383.0,57.0" target="_JJiXKVlbEe6zgPim6hxQEQ" source="_JJmBgFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4xU1lbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNFVlcEe6zgPim6hxQEQ" sourceY="77" targetX="418"/>
+    <stereotypes xmi:id="_JJkMVFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4xVVlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJkMUVlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTNQgllbEe6zgPim6hxQEQ" position="-268.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJkMUllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4xVFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTNQgVlbEe6zgPim6hxQEQ" position="-55.0,35.0"/>
+      <visibility xmi:id="_JJkzYVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJkzYFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJkMU1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="miglioreSol" navigable="true">
+      <modelElement href="Turni24H.uml#_JHskEllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTNQg1lbEe6zgPim6hxQEQ" position="58.0,-42.999999999999886"/>
+      <visibility xmi:id="_JJkzY1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJkzYllbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJjlQVlbEe6zgPim6hxQEQ" sourceAnchor="0.0,105.0" targetAnchor="44.0,131.0" target="_JJeswFlbEe6zgPim6hxQEQ" source="_JJmBgFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4xWVlbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNFllcEe6zgPim6hxQEQ" sourceX="-507" targetY="844"/>
+    <stereotypes xmi:id="_JJkMWVlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4xW1lbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJkMVllbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTNQhVlbEe6zgPim6hxQEQ" position="-48.99999999999977,-430.0000000000003"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJkMV1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4xWllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTNQhFlbEe6zgPim6hxQEQ" position="-46.0,-43.0"/>
+      <visibility xmi:id="_JJkzallbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJkzaVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJkMWFlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="turni" navigable="true">
+      <modelElement href="Turni24H.uml#_JHskGFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTNQhllbEe6zgPim6hxQEQ" position="-80.0,1.0"/>
+      <visibility xmi:id="_JJkzbFlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJkza1lbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJkMUFlbEe6zgPim6hxQEQ" sourceAnchor="0.0,135.0" targetAnchor="14.0,131.0" target="_JJeswFlbEe6zgPim6hxQEQ" source="_JJmBgFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4xXFlbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNF1lcEe6zgPim6hxQEQ" sourceX="-537" targetY="874"/>
+    <stereotypes xmi:id="_JJkMXVlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4xXllbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJkMWllbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTN3kVlbEe6zgPim6hxQEQ" position="-44.0,-440.00000000000006"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJkMW1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4xXVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTN3kFlbEe6zgPim6hxQEQ" position="-48.0,2.0"/>
+      <visibility xmi:id="_JJkzb1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJkzbllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJkMXFlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="turniNonCompletati" navigable="true">
+      <modelElement href="Turni24H.uml#_JHskG1lbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTN3kllbEe6zgPim6hxQEQ" position="-119.0,51.999999999999886"/>
+      <visibility xmi:id="_JJkzcVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJkzcFlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJkMVVlbEe6zgPim6hxQEQ" sourceAnchor="46.0,0.0" targetAnchor="73.0,131.0" target="_JJpr4FlbEe6zgPim6hxQEQ" source="_JJmBgFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4xVllbEe6zgPim6hxQEQ"/>
+    <stereotypes xmi:id="_JJkzaFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4xWFlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJkzZVlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTN3lFlbEe6zgPim6hxQEQ" position="-44.0,4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJkzZllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4xV1lbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTN3k1lbEe6zgPim6hxQEQ" position="-16.0,-116.0"/>
+      <visibility xmi:id="_JJlacllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJlacVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJkzZ1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="allStaff" navigable="true">
+      <modelElement href="Turni24H.uml#_JHskFVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTN3lVlbEe6zgPim6hxQEQ" position="-54.00000000000023,37.0"/>
+      <visibility xmi:id="_JJladFlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJlac1lbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJladllbEe6zgPim6hxQEQ" source="_JJmBgFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4xUFlbEe6zgPim6hxQEQ"/>
+    <stereotypes xmi:id="_JJlad1lbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4xUllbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJlaeFlbEe6zgPim6hxQEQ" text=""/>
+    <sourceRole xmi:id="_JJlaeVlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4xUVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJlaellbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJlae1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJlafFlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="dao" navigable="true">
+      <modelElement href="Turni24H.uml#_JHskEFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJlafVlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJlafllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJnPoFlbEe6zgPim6hxQEQ" sourceAnchor="80.0,0.0" targetAnchor="103.0,0.0" target="_JJpr4FlbEe6zgPim6hxQEQ" source="_JJodwFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4xX1lbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNG1lcEe6zgPim6hxQEQ" sourceY="-955" targetX="-849" targetY="-45"/>
+    <bendpoints xmi:id="_EAKNHFlcEe6zgPim6hxQEQ" sourceX="849" sourceY="-955" targetY="-45"/>
+    <stereotypes xmi:id="_JJn2s1lbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH5YYFlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJn2sFlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTOeoFlbEe6zgPim6hxQEQ" position="342.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJn2sVlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4xYFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTN3lllbEe6zgPim6hxQEQ" position="-16.0,-124.90909090909088"/>
+      <visibility xmi:id="_JJn2tVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJn2tFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJn2sllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="s" navigable="true">
+      <modelElement href="Turni24H.uml#_JHtyMFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTOeoVlbEe6zgPim6hxQEQ" position="-22.0,-43.33333333333337"/>
+      <visibility xmi:id="_JJn2t1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJn2tllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJsIIFlbEe6zgPim6hxQEQ" sourceAnchor="0.0,15.0" targetAnchor="383.0,87.0" target="_JJiXKVlbEe6zgPim6hxQEQ" source="_JJvyiVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4KQVlbEe6zgPim6hxQEQ"/>
+    <stereotypes xmi:id="_JJt9UFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4KQ1lbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJtWQ1lbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTOeo1lbEe6zgPim6hxQEQ" position="33.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJtWRFlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4KQllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTOeollbEe6zgPim6hxQEQ" position="-29.0,2.0"/>
+      <visibility xmi:id="_JJukZVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJukZFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJtWRVlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="miglioriAccoppiamenti" navigable="true">
+      <modelElement href="Turni24H.uml#_JHqu6VlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTOepFlbEe6zgPim6hxQEQ" position="79.0,2.0"/>
+      <visibility xmi:id="_JJukZ1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJukZllbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJsvMFlbEe6zgPim6hxQEQ" sourceAnchor="342.0,0.0" targetAnchor="74.0,131.0" target="_JJeswFlbEe6zgPim6hxQEQ" source="_JJvyiVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4KRFlbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNEFlcEe6zgPim6hxQEQ" sourceY="-352" targetX="906" targetY="690"/>
+    <bendpoints xmi:id="_EAKNEVlcEe6zgPim6hxQEQ" sourceX="-906" sourceY="-352" targetY="690"/>
+    <stereotypes xmi:id="_JJt9VFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4KRllbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJt9UVlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTOepllbEe6zgPim6hxQEQ" position="-412.0,-16.00000000000017"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJt9UllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4KRVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTOepVlbEe6zgPim6hxQEQ" position="-16.0,-77.0"/>
+      <visibility xmi:id="_JJvLcVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvLcFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJt9U1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="turni" navigable="true">
+      <modelElement href="Turni24H.uml#_JHrV8VlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTOep1lbEe6zgPim6hxQEQ" position="-40.99999999999977,59.0"/>
+      <visibility xmi:id="_JJvLc1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvLcllbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJtWQFlbEe6zgPim6hxQEQ" sourceAnchor="402.0,0.0" targetAnchor="147.0,66.0" target="_JJpr4FlbEe6zgPim6hxQEQ" source="_JJvyiVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4KR1lbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNEllcEe6zgPim6hxQEQ" sourceY="-1112" targetX="369"/>
+    <stereotypes xmi:id="_JJt9WFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4KSVlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJt9VVlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTPFsVlbEe6zgPim6hxQEQ" position="-83.00000000000023,0.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJt9VllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4KSFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTPFsFlbEe6zgPim6hxQEQ" position="2.0,-109.0"/>
+      <visibility xmi:id="_JJvLdllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvLdVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJt9V1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="allStaff" navigable="true">
+      <modelElement href="Turni24H.uml#_JHrV9FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTPFsllbEe6zgPim6hxQEQ" position="39.99999999999977,1.0"/>
+      <visibility xmi:id="_JJvLeFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvLd1lbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJtWQVlbEe6zgPim6hxQEQ" sourceAnchor="0.0,156.0" targetAnchor="58.0,93.0" target="_JJcQgFlbEe6zgPim6hxQEQ" source="_JJvyiVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4KSllbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNE1lcEe6zgPim6hxQEQ" sourceX="-1152" targetY="741"/>
+    <stereotypes xmi:id="_JJt9XFlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4KTFlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJt9WVlbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTPFtFlbEe6zgPim6hxQEQ" position="1.0,-55.99999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJt9WllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4KS1lbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTPFs1lbEe6zgPim6hxQEQ" position="-86.0,2.0"/>
+      <visibility xmi:id="_JJvLellbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvLeVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJt9W1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="giorniOff" navigable="true">
+      <modelElement href="Turni24H.uml#_JHrV9llbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTPFtVlbEe6zgPim6hxQEQ" position="2.0,44.00000000000023"/>
+      <visibility xmi:id="_JJvLfFlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvLe1lbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJtWQllbEe6zgPim6hxQEQ" source="_JJvyiVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH3jNllbEe6zgPim6hxQEQ"/>
+    <stereotypes xmi:id="_JJukY1lbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4KQFlbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJukYFlbEe6zgPim6hxQEQ" text=""/>
+    <sourceRole xmi:id="_JJukYVlbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH3jN1lbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvLf1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvLfllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJukYllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="dao" navigable="true">
+      <modelElement href="Turni24H.uml#_JHqu51lbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvLgVlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvLgFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JJvygFlbEe6zgPim6hxQEQ" sourceAnchor="372.0,0.0" targetAnchor="155.0,75.0" target="_JJy10FlbEe6zgPim6hxQEQ" source="_JJvyiVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JH4KTVlbEe6zgPim6hxQEQ"/>
+    <bendpoints xmi:id="_EAKNFFlcEe6zgPim6hxQEQ" sourceY="-652" targetX="168"/>
+    <stereotypes xmi:id="_JJvygVlbEe6zgPim6hxQEQ" name="Reference">
+      <modelElement href="Turni24H.uml#_JH4KT1lbEe6zgPim6hxQEQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JJvygllbEe6zgPim6hxQEQ" text="">
+      <visualProperties xmi:id="_JTPswFlbEe6zgPim6hxQEQ" position="-118.0,-16.999999999999886"/>
+    </nameVisual>
+    <sourceRole xmi:id="_JJvyg1lbEe6zgPim6hxQEQ" aggregationKind="NONE" name="">
+      <modelElement href="Turni24H.uml#_JH4KTllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTPFtllbEe6zgPim6hxQEQ" position="2.0,-81.0"/>
+      <visibility xmi:id="_JJvyhFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvyhVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JJvyhllbEe6zgPim6hxQEQ" aggregationKind="NONE" name="richiesteTurni" navigable="true">
+      <modelElement href="Turni24H.uml#_JHrV-VlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_JTPswVlbEe6zgPim6hxQEQ" position="42.0,1.0"/>
+      <visibility xmi:id="_JJvyh1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvyiFlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJeswFlbEe6zgPim6hxQEQ" name="Turno" associationsIn="_JJhJAFlbEe6zgPim6hxQEQ _JJjlQVlbEe6zgPim6hxQEQ _JJkMUFlbEe6zgPim6hxQEQ _JJsvMFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJeswVlbEe6zgPim6hxQEQ" position="602.0,-465.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJeswllbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJesw1lbEe6zgPim6hxQEQ" name="idTurno">
+      <modelElement href="Turni24H.uml#_JHuZQFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJesxFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHuZQVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJesxVlbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJesxllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJesx1lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJesyFlbEe6zgPim6hxQEQ" name="giorno">
+      <modelElement href="Turni24H.uml#_JHuZQllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJesyVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHuZQ1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJesyllbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJesy1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJeszFlbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJeszVlbEe6zgPim6hxQEQ" name="tipoTurno">
+      <modelElement href="Turni24H.uml#_JHuZRFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJeszllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHuZRVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJesz1lbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJes0FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJes0VlbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJes0llbEe6zgPim6hxQEQ" name="richiesta">
+      <modelElement href="Turni24H.uml#_JHuZRllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJes01lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHuZR1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJes1FlbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJes1VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJes1llbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJes11lbEe6zgPim6hxQEQ" name="hashCode">
+      <modelElement href="Turni24H.uml#_JHCcwVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5kk_AFlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJes2FlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHCcw1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJes2VlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHCcxFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJes2llbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes21lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJes3FlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHCcwllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJes3VlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJes3llbEe6zgPim6hxQEQ" name="toString">
+      <modelElement href="Turni24H.uml#_JHCcxllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5kmNIFlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJes31lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHDD0VlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJes4FlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHDD0llbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJes4VlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes4llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJes41lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDD0FlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJes5FlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJes5VlbEe6zgPim6hxQEQ" name="getIdTurno">
+      <modelElement href="Turni24H.uml#_JHDD1FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5km0MFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJes5llbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes51lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJes6FlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDD1VlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJes6VlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJes6llbEe6zgPim6hxQEQ" name="setIdTurno">
+      <modelElement href="Turni24H.uml#_JHDD1llbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5km0MVlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJes61lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes7FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJes7VlbEe6zgPim6hxQEQ" name="idTurno">
+        <modelElement href="Turni24H.uml#_JHDD11lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJes7llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJes71lbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJes8FlbEe6zgPim6hxQEQ" name="getGiorno">
+      <modelElement href="Turni24H.uml#_JHDD2FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5km0MllbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJes8VlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes8llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJes81lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDD2VlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJes9FlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJes9VlbEe6zgPim6hxQEQ" name="setGiorno">
+      <modelElement href="Turni24H.uml#_JHDD2llbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5km0M1lbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJes9llbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes91lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJes-FlbEe6zgPim6hxQEQ" name="giorno">
+        <modelElement href="Turni24H.uml#_JHDD21lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJes-VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJes-llbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJes-1lbEe6zgPim6hxQEQ" name="getTipoTurno">
+      <modelElement href="Turni24H.uml#_JHDD3FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5km0NFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJes_FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJes_VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJes_llbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDD3VlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJes_1lbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJetAFlbEe6zgPim6hxQEQ" name="setTipoTurno">
+      <modelElement href="Turni24H.uml#_JHDD3llbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5km0NVlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJetAVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJetAllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJetA1lbEe6zgPim6hxQEQ" name="tipoTurno">
+        <modelElement href="Turni24H.uml#_JHDD31lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJetBFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJetBVlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJetBllbEe6zgPim6hxQEQ" name="getRichiesta">
+      <modelElement href="Turni24H.uml#_JHDq4FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5knbQFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJetB1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJetCFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJetCVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDq4VlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJetCllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJetC1lbEe6zgPim6hxQEQ" name="setRichiesta">
+      <modelElement href="Turni24H.uml#_JHDq4llbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5knbQVlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJetDFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJetDVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJetDllbEe6zgPim6hxQEQ" name="richiesta">
+        <modelElement href="Turni24H.uml#_JHDq41lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJetD1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJetEFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJetEVlbEe6zgPim6hxQEQ" name="Turno">
+      <modelElement href="Turni24H.uml#_JHDq5FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5knbQllbEe6zgPim6hxQEQ" visible="false"/>
+      <keywords xmi:id="_JJetEllbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJetE1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJetFFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJetFVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDq61lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJetFllbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJetF1lbEe6zgPim6hxQEQ" name="idTurno">
+        <modelElement href="Turni24H.uml#_JHDq5VlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJetGFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJetGVlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJetGllbEe6zgPim6hxQEQ" name="giorno">
+        <modelElement href="Turni24H.uml#_JHDq5llbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJetG1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJetHFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJetHVlbEe6zgPim6hxQEQ" name="tipoTurno">
+        <modelElement href="Turni24H.uml#_JHDq51lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJetHllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJetH1lbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJetIFlbEe6zgPim6hxQEQ" name="richiesta">
+        <modelElement href="Turni24H.uml#_JHDq6FlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJetIVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJetIllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJetI1lbEe6zgPim6hxQEQ" name="isWeekEnd">
+      <modelElement href="Turni24H.uml#_JHDq7FlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5knbQ1lbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJetJFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJetJVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJetJllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDq7VlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJetJ1lbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJetKFlbEe6zgPim6hxQEQ" name="toStringCompleto">
+      <modelElement href="Turni24H.uml#_JHDq7llbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5knbRFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJetKVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJetKllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJetK1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHDq71lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJetLFlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJetLVlbEe6zgPim6hxQEQ" name="equals">
+      <modelElement href="Turni24H.uml#_JHo5tllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_5knbRVlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJetLllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHpgwVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJfT0FlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHpgwllbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJfT0VlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJfT0llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJfT01lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHpgwFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJfT1FlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJfT1VlbEe6zgPim6hxQEQ" name="obj">
+        <modelElement href="Turni24H.uml#_JHo5t1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJfT1llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJfT11lbEe6zgPim6hxQEQ" name="Object">
+          <modelElement href="Turni24H.uml#_JHkBMVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJpr4FlbEe6zgPim6hxQEQ" name="Staff" associationsIn="_JJiXIFlbEe6zgPim6hxQEQ _JJkMVVlbEe6zgPim6hxQEQ _JJnPoFlbEe6zgPim6hxQEQ _JJtWQFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJpr4VlbEe6zgPim6hxQEQ" position="1126.0,-470.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJpr4llbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJpr41lbEe6zgPim6hxQEQ" name="idStaff">
+      <modelElement href="Turni24H.uml#_JHtLIllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJpr5FlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHtLI1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJpr5VlbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJpr5llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJqS8FlbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJqS8VlbEe6zgPim6hxQEQ" name="name">
+      <modelElement href="Turni24H.uml#_JHtLJFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJqS8llbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHtLJVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJqS81lbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJqS9FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJqS9VlbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJqS9llbEe6zgPim6hxQEQ" name="maxTotalMin">
+      <modelElement href="Turni24H.uml#_JHtLJllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJqS91lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHtLJ1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJqS-FlbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJqS-VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJqS-llbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJqS-1lbEe6zgPim6hxQEQ" name="minTotalMin">
+      <modelElement href="Turni24H.uml#_JHtLKFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJqS_FlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHtLKVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJqS_VlbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJqS_llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJqS_1lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJqTAFlbEe6zgPim6hxQEQ" name="getId">
+      <modelElement href="Turni24H.uml#_JHAAgFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MiW4FlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTAVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTAllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTA1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAAgVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTBFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqTBVlbEe6zgPim6hxQEQ" name="setId">
+      <modelElement href="Turni24H.uml#_JHAAgllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6Mi98FlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTBllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTB1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJqTCFlbEe6zgPim6hxQEQ" name="id">
+        <modelElement href="Turni24H.uml#_JHAAg1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTCVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTCllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJqTC1lbEe6zgPim6hxQEQ" name="getName">
+      <modelElement href="Turni24H.uml#_JHAAhFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6Mi98VlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTDFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTDVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTDllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAAhVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTD1lbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqTEFlbEe6zgPim6hxQEQ" name="setName">
+      <modelElement href="Turni24H.uml#_JHAAhllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6Mi98llbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTEVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTEllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJqTE1lbEe6zgPim6hxQEQ" name="name">
+        <modelElement href="Turni24H.uml#_JHAAh1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTFFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTFVlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJqTFllbEe6zgPim6hxQEQ" name="getMaxTotalMin">
+      <modelElement href="Turni24H.uml#_JHAAiFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MjlAFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTF1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTGFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTGVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAAiVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTGllbEe6zgPim6hxQEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqTG1lbEe6zgPim6hxQEQ" name="setMaxTotalMin">
+      <modelElement href="Turni24H.uml#_JHAAillbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MjlAVlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTHFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTHVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJqTHllbEe6zgPim6hxQEQ" name="maxTotalMin">
+        <modelElement href="Turni24H.uml#_JHAAi1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTH1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTIFlbEe6zgPim6hxQEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJqTIVlbEe6zgPim6hxQEQ" name="getMinTotalMin">
+      <modelElement href="Turni24H.uml#_JHAAjFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MjlAllbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTIllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTI1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTJFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAAjVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTJVlbEe6zgPim6hxQEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqTJllbEe6zgPim6hxQEQ" name="setMinTotalMin">
+      <modelElement href="Turni24H.uml#_JHAAjllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MjlA1lbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJqTJ1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTKFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJqTKVlbEe6zgPim6hxQEQ" name="minTotalMin">
+        <modelElement href="Turni24H.uml#_JHAAj1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTKllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTK1lbEe6zgPim6hxQEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJqTLFlbEe6zgPim6hxQEQ" name="Staff">
+      <modelElement href="Turni24H.uml#_JHAnkFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MjlBFlbEe6zgPim6hxQEQ" visible="false"/>
+      <keywords xmi:id="_JJqTLVlbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJqTLllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTL1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTMFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAnl1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTMVlbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJqTMllbEe6zgPim6hxQEQ" name="id">
+        <modelElement href="Turni24H.uml#_JHAnkVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTM1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTNFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJqTNVlbEe6zgPim6hxQEQ" name="name">
+        <modelElement href="Turni24H.uml#_JHAnkllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTNllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTN1lbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJqTOFlbEe6zgPim6hxQEQ" name="maxTotalMin">
+        <modelElement href="Turni24H.uml#_JHAnk1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTOVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTOllbEe6zgPim6hxQEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJqTO1lbEe6zgPim6hxQEQ" name="minTotalMin">
+        <modelElement href="Turni24H.uml#_JHAnlFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTPFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTPVlbEe6zgPim6hxQEQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJqTPllbEe6zgPim6hxQEQ" name="toString">
+      <modelElement href="Turni24H.uml#_JHAnmFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MjlBVlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJqTP1lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHAnmllbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJqTQFlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHAnm1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJqTQVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTQllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTQ1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAnmVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTRFlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqTRVlbEe6zgPim6hxQEQ" name="hashCode">
+      <modelElement href="Turni24H.uml#_JHAnnVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MkMEFlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJqTRllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHBOoFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJqTR1lbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHBOoVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJqTSFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTSVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTSllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHAnnllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTS1lbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqTTFlbEe6zgPim6hxQEQ" name="equals">
+      <modelElement href="Turni24H.uml#_JHo5sFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_6MkMEVlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJqTTVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHo5s1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJqTTllbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHo5tFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJqTT1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJqTUFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqTUVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHo5sllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJqTUllbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJqTU1lbEe6zgPim6hxQEQ" name="obj">
+        <modelElement href="Turni24H.uml#_JHo5sVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJqTVFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJqTVVlbEe6zgPim6hxQEQ" name="Object">
+          <modelElement href="Turni24H.uml#_JHkBMVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJcQgFlbEe6zgPim6hxQEQ" name="GiorniOff" associationsIn="_JJtWQVlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JG3doFlbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJcQgVlbEe6zgPim6hxQEQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJcQgllbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJcQg1lbEe6zgPim6hxQEQ" name="idStaff">
+      <modelElement href="Turni24H.uml#_JHqu41lbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJcQhFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHqu5FlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJcQhVlbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJcQhllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJcQh1lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJcQiFlbEe6zgPim6hxQEQ" name="Giorno">
+      <modelElement href="Turni24H.uml#_JHqu5VlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJcQiVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHqu5llbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJcQillbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJcQi1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJcQjFlbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJcQjVlbEe6zgPim6hxQEQ" name="getIdStaff">
+      <modelElement href="Turni24H.uml#_JG4EsFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61cJ8FlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJcQjllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQj1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJcQkFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG4EsVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJcQkVlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJcQkllbEe6zgPim6hxQEQ" name="setIdStaff">
+      <modelElement href="Turni24H.uml#_JG4EsllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61cxAFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJcQk1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQlFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJcQlVlbEe6zgPim6hxQEQ" name="idStaff">
+        <modelElement href="Turni24H.uml#_JG4Es1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJcQlllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJcQl1lbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJcQmFlbEe6zgPim6hxQEQ" name="getGiorno">
+      <modelElement href="Turni24H.uml#_JG4EtFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61cxAVlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJcQmVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQmllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJcQm1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG4EtVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJcQnFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJcQnVlbEe6zgPim6hxQEQ" name="setGiorno">
+      <modelElement href="Turni24H.uml#_JG4EtllbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61cxAllbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJcQnllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQn1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJcQoFlbEe6zgPim6hxQEQ" name="giorno">
+        <modelElement href="Turni24H.uml#_JG4Et1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJcQoVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJcQollbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJcQo1lbEe6zgPim6hxQEQ" name="hashCode">
+      <modelElement href="Turni24H.uml#_JG4EuFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61cxA1lbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJcQpFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JG4rwFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJcQpVlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JG4rwVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJcQpllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQp1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJcQqFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG4EuVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJcQqVlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJcQqllbEe6zgPim6hxQEQ" name="GiorniOff">
+      <modelElement href="Turni24H.uml#_JG4rw1lbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61dYEFlbEe6zgPim6hxQEQ" visible="false"/>
+      <keywords xmi:id="_JJcQq1lbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJcQrFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQrVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJcQrllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG4ryFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJcQr1lbEe6zgPim6hxQEQ" name="GiorniOff">
+          <modelElement href="Turni24H.uml#_JG3doFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJcQsFlbEe6zgPim6hxQEQ" name="idStaff">
+        <modelElement href="Turni24H.uml#_JG4rxFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJcQsVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJcQsllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJcQs1lbEe6zgPim6hxQEQ" name="giorno">
+        <modelElement href="Turni24H.uml#_JG4rxVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJcQtFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJcQtVlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJcQtllbEe6zgPim6hxQEQ" name="equals">
+      <modelElement href="Turni24H.uml#_JHkoR1lbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_61dYEVlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJcQt1lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHlPUVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJcQuFlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHlPUllbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJcQuVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJcQullbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJcQu1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHlPUFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJcQvFlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJcQvVlbEe6zgPim6hxQEQ" name="obj">
+        <modelElement href="Turni24H.uml#_JHkoSFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJcQvllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJcQv1lbEe6zgPim6hxQEQ" name="Object">
+          <modelElement href="Turni24H.uml#_JHkBMVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJy10FlbEe6zgPim6hxQEQ" name="RichiestaTurni" associationsIn="_JJvygFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JG7vEFlbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJy10VlbEe6zgPim6hxQEQ" position="1289.0,-19.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJy10llbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJy101lbEe6zgPim6hxQEQ" name="idStaff">
+      <modelElement href="Turni24H.uml#_JHr9A1lbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJy11FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy11VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJy11llbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJy111lbEe6zgPim6hxQEQ" name="giorno">
+      <modelElement href="Turni24H.uml#_JHr9BFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJy12FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy12VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJy12llbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJy121lbEe6zgPim6hxQEQ" name="tipoTurno">
+      <modelElement href="Turni24H.uml#_JHr9BVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJy13FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy13VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJy13llbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJy131lbEe6zgPim6hxQEQ" name="isOffDay">
+      <modelElement href="Turni24H.uml#_JHr9BllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJy14FlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHr9B1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJy14VlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJy14llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJy141lbEe6zgPim6hxQEQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJy15FlbEe6zgPim6hxQEQ" name="peso">
+      <modelElement href="Turni24H.uml#_JHr9CFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJy15VlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy15llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJy151lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJy16FlbEe6zgPim6hxQEQ" name="RichiestaTurni">
+      <modelElement href="Turni24H.uml#_JG8WIFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_7W-JsFlbEe6zgPim6hxQEQ" visible="false"/>
+      <keywords xmi:id="_JJy16VlbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJy16llbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy161lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJy17FlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG8WKFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJy17VlbEe6zgPim6hxQEQ" name="RichiestaTurni">
+          <modelElement href="Turni24H.uml#_JG7vEFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJy17llbEe6zgPim6hxQEQ" name="idStaff">
+        <modelElement href="Turni24H.uml#_JG8WIVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy171lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy18FlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJy18VlbEe6zgPim6hxQEQ" name="giorno">
+        <modelElement href="Turni24H.uml#_JG8WIllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy18llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy181lbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJy19FlbEe6zgPim6hxQEQ" name="tipoTurno">
+        <modelElement href="Turni24H.uml#_JG8WI1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy19VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy19llbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJy191lbEe6zgPim6hxQEQ" name="isOffDay">
+        <modelElement href="Turni24H.uml#_JG8WJFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy1-FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy1-VlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJy1-llbEe6zgPim6hxQEQ" name="peso">
+        <modelElement href="Turni24H.uml#_JG8WJVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy1-1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy1_FlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJy1_VlbEe6zgPim6hxQEQ" name="isOffDay">
+      <modelElement href="Turni24H.uml#_JG8WKVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_7W-wwFlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJy1_llbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy1_1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJy2AFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG8WKllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJy2AVlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJy2AllbEe6zgPim6hxQEQ" name="setOffDay">
+      <modelElement href="Turni24H.uml#_JG8WK1lbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_7W-wwVlbEe6zgPim6hxQEQ" visible="false"/>
+      <visibility xmi:id="_JJy2A1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy2BFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJy2BVlbEe6zgPim6hxQEQ" name="isOffDay">
+        <modelElement href="Turni24H.uml#_JG8WLFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy2BllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy2B1lbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJy2CFlbEe6zgPim6hxQEQ" name="hashCode">
+      <modelElement href="Turni24H.uml#_JG8WLVlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_7W-wwllbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJy2CVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JG89MFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJy2CllbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JG89MVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJy2C1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy2DFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJy2DVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG8WLllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJy2DllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJy2D1lbEe6zgPim6hxQEQ" name="equals">
+      <modelElement href="Turni24H.uml#_JHnrkFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_7W_X0FlbEe6zgPim6hxQEQ" visible="false"/>
+      <stereotypes xmi:id="_JJy2EFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHnrk1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJy2EVlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHnrlFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJy2EllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJy2E1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJy2FFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHnrkllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJy2FVlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJy2FllbEe6zgPim6hxQEQ" name="obj">
+        <modelElement href="Turni24H.uml#_JHnrkVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJy2F1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJy2GFlbEe6zgPim6hxQEQ" name="Object">
+          <modelElement href="Turni24H.uml#_JHkBMVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJvyiVlbEe6zgPim6hxQEQ" name="Model" associationsOut="_JJsIIFlbEe6zgPim6hxQEQ _JJsvMFlbEe6zgPim6hxQEQ _JJtWQFlbEe6zgPim6hxQEQ _JJtWQVlbEe6zgPim6hxQEQ _JJtWQllbEe6zgPim6hxQEQ _JJvygFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JG4ryVlbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJvyillbEe6zgPim6hxQEQ" position="1240.0,708.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJvyi1lbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJvyjFlbEe6zgPim6hxQEQ" name="dao">
+      <modelElement href="Turni24H.uml#_JHqu51lbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvyjVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHqu6FlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvyjllbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvyj1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJvykFlbEe6zgPim6hxQEQ" name="Turni24HDao">
+        <modelElement href="Turni24H.uml#_JHeho1lbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvykVlbEe6zgPim6hxQEQ" name="miglioriAccoppiamenti">
+      <modelElement href="Turni24H.uml#_JHqu6VlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvykllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHrV8FlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvyk1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvylFlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJvylVlbEe6zgPim6hxQEQ" name="Accoppiamenti">
+        <modelElement href="Turni24H.uml#_JG1BYFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvylllbEe6zgPim6hxQEQ" name="turni">
+      <modelElement href="Turni24H.uml#_JHrV8VlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvyl1lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHrV81lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvymFlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvymVlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJvymllbEe6zgPim6hxQEQ" name="Turno">
+        <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvym1lbEe6zgPim6hxQEQ" name="allStaff">
+      <modelElement href="Turni24H.uml#_JHrV9FlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvynFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvynVlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJvynllbEe6zgPim6hxQEQ" name="Staff">
+        <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvyn1lbEe6zgPim6hxQEQ" name="giorniOff">
+      <modelElement href="Turni24H.uml#_JHrV9llbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvyoFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHrV-FlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvyoVlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvyollbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJvyo1lbEe6zgPim6hxQEQ" name="GiorniOff">
+        <modelElement href="Turni24H.uml#_JG3doFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvypFlbEe6zgPim6hxQEQ" name="richiesteTurni">
+      <modelElement href="Turni24H.uml#_JHrV-VlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvypVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHrV-1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvypllbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvyp1lbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJvyqFlbEe6zgPim6hxQEQ" name="RichiestaTurni">
+        <modelElement href="Turni24H.uml#_JG7vEFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvyqVlbEe6zgPim6hxQEQ" name="solTrovata">
+      <modelElement href="Turni24H.uml#_JHrV_FlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvyqllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHrV_VlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvyq1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvyrFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJvyrVlbEe6zgPim6hxQEQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvyrllbEe6zgPim6hxQEQ" name="contatore">
+      <modelElement href="Turni24H.uml#_JHrV_llbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvyr1lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHrV_1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvysFlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvysVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJvysllbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvys1lbEe6zgPim6hxQEQ" name="migliorPunteggio">
+      <modelElement href="Turni24H.uml#_JHrWAFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJvytFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHr9AFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJvytVlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvytllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJvyt1lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvyuFlbEe6zgPim6hxQEQ" name="turniTotaliRichiesti">
+      <modelElement href="Turni24H.uml#_JHr9AVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvyuVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvyullbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJvyu1lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJvyvFlbEe6zgPim6hxQEQ" name="turniTotaliDisponibili">
+      <modelElement href="Turni24H.uml#_JHr9AllbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvyvVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvyvllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJvyv1lbEe6zgPim6hxQEQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJvywFlbEe6zgPim6hxQEQ" name="Model">
+      <modelElement href="Turni24H.uml#_JG5S0FlbEe6zgPim6hxQEQ"/>
+      <keywords xmi:id="_JJvywVlbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJvywllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvyw1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJvyxFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG5S01lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvyxVlbEe6zgPim6hxQEQ" name="Model">
+          <modelElement href="Turni24H.uml#_JG4ryVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJvyxllbEe6zgPim6hxQEQ" name="cercaLista">
+      <modelElement href="Turni24H.uml#_JG554FlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvyx1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvyyFlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_JJvyyVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG555llbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvyyllbEe6zgPim6hxQEQ" name="Accoppiamenti">
+          <modelElement href="Turni24H.uml#_JG1BYFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvyy1lbEe6zgPim6hxQEQ" name="profondita">
+        <modelElement href="Turni24H.uml#_JG554VlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvyzFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvyzVlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvyzllbEe6zgPim6hxQEQ" name="richiestiOff">
+        <modelElement href="Turni24H.uml#_JG554llbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvyz1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy0FlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy0VlbEe6zgPim6hxQEQ" name="richiestiOn">
+        <modelElement href="Turni24H.uml#_JG5541lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy0llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy01lbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy1FlbEe6zgPim6hxQEQ" name="weekend">
+        <modelElement href="Turni24H.uml#_JG555FlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy1VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy1llbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy11lbEe6zgPim6hxQEQ" name="straordinario">
+        <modelElement href="Turni24H.uml#_JG555VlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy2FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy2VlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvy2llbEe6zgPim6hxQEQ" name="generaListaSettimana">
+      <modelElement href="Turni24H.uml#_JG6g8FlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvy21lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJvy3FlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_JJvy3VlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG6g8llbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvy3llbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali">
+          <modelElement href="Turni24H.uml#_JHBOo1lbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvy31lbEe6zgPim6hxQEQ" name="i">
+        <modelElement href="Turni24H.uml#_JG6g8VlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy4FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy4VlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvy4llbEe6zgPim6hxQEQ" name="aggiungiTurni">
+      <modelElement href="Turni24H.uml#_JHlPVFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvy41lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvy5FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJvy5VlbEe6zgPim6hxQEQ" name="parziale">
+        <modelElement href="Turni24H.uml#_JHlPVVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy5llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy51lbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy6FlbEe6zgPim6hxQEQ" name="richiestiOff">
+        <modelElement href="Turni24H.uml#_JHlPVllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy6VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy6llbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy61lbEe6zgPim6hxQEQ" name="weekend">
+        <modelElement href="Turni24H.uml#_JHlPV1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy7FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy7VlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy7llbEe6zgPim6hxQEQ" name="straordinario">
+        <modelElement href="Turni24H.uml#_JHlPWFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy71lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy8FlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvy8VlbEe6zgPim6hxQEQ" name="cerca">
+      <modelElement href="Turni24H.uml#_JHl2YVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvy8llbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvy81lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJvy9FlbEe6zgPim6hxQEQ" name="parziale">
+        <modelElement href="Turni24H.uml#_JHl2YllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy9VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy9llbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy91lbEe6zgPim6hxQEQ" name="richiestiOff">
+        <modelElement href="Turni24H.uml#_JHl2Y1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy-FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy-VlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy-llbEe6zgPim6hxQEQ" name="weekend">
+        <modelElement href="Turni24H.uml#_JHl2ZFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy-1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy_FlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvy_VlbEe6zgPim6hxQEQ" name="straordinario">
+        <modelElement href="Turni24H.uml#_JHl2ZVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvy_llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvy_1lbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzAFlbEe6zgPim6hxQEQ" name="turniDisponibili">
+        <modelElement href="Turni24H.uml#_JHl2ZllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzAVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzAllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzA1lbEe6zgPim6hxQEQ" name="punteggio">
+        <modelElement href="Turni24H.uml#_JHl2Z1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzBFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzBVlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvzBllbEe6zgPim6hxQEQ" name="calcolaPunteggio">
+      <modelElement href="Turni24H.uml#_JHl2aVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvzB1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvzCFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJvzCVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHl2a1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvzCllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvzC1lbEe6zgPim6hxQEQ" name="lista">
+        <modelElement href="Turni24H.uml#_JHl2allbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzDFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzDVlbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvzDllbEe6zgPim6hxQEQ" name="turniTot">
+      <modelElement href="Turni24H.uml#_JHmdcFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvzD1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvzEFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJvzEVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHmdcllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvzEllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvzE1lbEe6zgPim6hxQEQ" name="lista">
+        <modelElement href="Turni24H.uml#_JHmdcVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzFFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzFVlbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvzFllbEe6zgPim6hxQEQ" name="turniDisp">
+      <modelElement href="Turni24H.uml#_JHmddFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvzF1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvzGFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJvzGVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHmddllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvzGllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvzG1lbEe6zgPim6hxQEQ" name="lista">
+        <modelElement href="Turni24H.uml#_JHmddVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzHFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzHVlbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvzHllbEe6zgPim6hxQEQ" name="turniCompletati">
+      <modelElement href="Turni24H.uml#_JHmdeFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvzH1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvzIFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJvzIVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHmde1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvzIllbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvzI1lbEe6zgPim6hxQEQ" name="t">
+        <modelElement href="Turni24H.uml#_JHmdeVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzJFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzJVlbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzJllbEe6zgPim6hxQEQ" name="parziale">
+        <modelElement href="Turni24H.uml#_JHmdellbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzJ1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzKFlbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJvzKVlbEe6zgPim6hxQEQ" name="isDisponibile">
+      <modelElement href="Turni24H.uml#_JHnEgVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJvzKllbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJvzK1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJvzLFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHnEiFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJvzLVlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJvzLllbEe6zgPim6hxQEQ" name="parziale">
+        <modelElement href="Turni24H.uml#_JHnEgllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzL1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzMFlbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzMVlbEe6zgPim6hxQEQ" name="s">
+        <modelElement href="Turni24H.uml#_JHnEg1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzMllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzM1lbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzNFlbEe6zgPim6hxQEQ" name="t">
+        <modelElement href="Turni24H.uml#_JHnEhFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzNVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzNllbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzN1lbEe6zgPim6hxQEQ" name="richiestiOff">
+        <modelElement href="Turni24H.uml#_JHnEhVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzOFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzOVlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzOllbEe6zgPim6hxQEQ" name="weekend">
+        <modelElement href="Turni24H.uml#_JHnEhllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzO1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzPFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJvzPVlbEe6zgPim6hxQEQ" name="straordinari">
+        <modelElement href="Turni24H.uml#_JHnEh1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJvzPllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJvzP1lbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJmBgFlbEe6zgPim6hxQEQ" name="Risultati" associationsOut="_JJjlQFlbEe6zgPim6hxQEQ _JJjlQVlbEe6zgPim6hxQEQ _JJkMUFlbEe6zgPim6hxQEQ _JJkMVVlbEe6zgPim6hxQEQ _JJladllbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JG89M1lbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJmBgVlbEe6zgPim6hxQEQ" position="1153.0,405.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJmBgllbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJmBg1lbEe6zgPim6hxQEQ" name="dao">
+      <modelElement href="Turni24H.uml#_JHskEFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBhFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHskEVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBhVlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJmBhllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJmBh1lbEe6zgPim6hxQEQ" name="Turni24HDao">
+        <modelElement href="Turni24H.uml#_JHeho1lbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJmBiFlbEe6zgPim6hxQEQ" name="miglioreSol">
+      <modelElement href="Turni24H.uml#_JHskEllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBiVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHskFFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBillbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJmBi1lbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJmBjFlbEe6zgPim6hxQEQ" name="Accoppiamenti">
+        <modelElement href="Turni24H.uml#_JG1BYFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJmBjVlbEe6zgPim6hxQEQ" name="allStaff">
+      <modelElement href="Turni24H.uml#_JHskFVlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBjllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHskF1lbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBj1lbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJmBkFlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJmBkVlbEe6zgPim6hxQEQ" name="Staff">
+        <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJmBkllbEe6zgPim6hxQEQ" name="turni">
+      <modelElement href="Turni24H.uml#_JHskGFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBk1lbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHskGllbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBlFlbEe6zgPim6hxQEQ" label="-"/>
+      <cardinality xmi:id="_JJmBlVlbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJmBlllbEe6zgPim6hxQEQ" name="Turno">
+        <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJmBl1lbEe6zgPim6hxQEQ" name="turniNonCompletati">
+      <modelElement href="Turni24H.uml#_JHskG1lbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBmFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHskHFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBmVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBmllbEe6zgPim6hxQEQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_JJmBm1lbEe6zgPim6hxQEQ" name="Turno">
+        <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJmBnFlbEe6zgPim6hxQEQ" name="getStaffOreInMeno">
+      <modelElement href="Turni24H.uml#_JG9kQFlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBnVlbEe6zgPim6hxQEQ" name="Generics">
+        <modelElement href="Turni24H.uml#_JG9kQVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBnllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBn1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBoFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHoSpllbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmBoVlbEe6zgPim6hxQEQ" name="Map">
+          <modelElement href="Turni24H.uml#_JHgW0llbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJmBollbEe6zgPim6hxQEQ" name="getStaffConOreDisponibili">
+      <modelElement href="Turni24H.uml#_JG9kQllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBo1lbEe6zgPim6hxQEQ" name="Generics">
+        <modelElement href="Turni24H.uml#_JG-LUFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBpFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBpVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBpllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHoSp1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmBp1lbEe6zgPim6hxQEQ" name="Map">
+          <modelElement href="Turni24H.uml#_JHgW0llbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJmBqFlbEe6zgPim6hxQEQ" name="getStaffStraordinario">
+      <modelElement href="Turni24H.uml#_JG-LUVlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBqVlbEe6zgPim6hxQEQ" name="Generics">
+        <modelElement href="Turni24H.uml#_JG-LUllbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBqllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBq1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBrFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHoSqFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmBrVlbEe6zgPim6hxQEQ" name="Map">
+          <modelElement href="Turni24H.uml#_JHgW0llbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJmBrllbEe6zgPim6hxQEQ" name="getMapTurniIncompleti">
+      <modelElement href="Turni24H.uml#_JG-LU1lbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJmBr1lbEe6zgPim6hxQEQ" name="Generics">
+        <modelElement href="Turni24H.uml#_JG-LVFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJmBsFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBsVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBsllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHoSqVlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmBs1lbEe6zgPim6hxQEQ" name="Map">
+          <modelElement href="Turni24H.uml#_JHgW0llbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJmBtFlbEe6zgPim6hxQEQ" name="staffTurniInPiu">
+      <modelElement href="Turni24H.uml#_JHg94FlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJmBtVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBtllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBt1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHg94llbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmBuFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJmBuVlbEe6zgPim6hxQEQ" name="s">
+        <modelElement href="Turni24H.uml#_JHg94VlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJmBullbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJmBu1lbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJmBvFlbEe6zgPim6hxQEQ" name="staffTurniInMeno">
+      <modelElement href="Turni24H.uml#_JHg941lbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJmBvVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBvllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBv1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHg95VlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmBwFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJmBwVlbEe6zgPim6hxQEQ" name="s">
+        <modelElement href="Turni24H.uml#_JHg95FlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJmBwllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJmBw1lbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJmBxFlbEe6zgPim6hxQEQ" name="turniInMeno">
+      <modelElement href="Turni24H.uml#_JHg95llbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJmBxVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBxllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmBx1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHg96FlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmByFlbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJmByVlbEe6zgPim6hxQEQ" name="t">
+        <modelElement href="Turni24H.uml#_JHg951lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJmByllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJmBy1lbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJmBzFlbEe6zgPim6hxQEQ" name="Risultati">
+      <modelElement href="Turni24H.uml#_JHoSoFlbEe6zgPim6hxQEQ"/>
+      <keywords xmi:id="_JJmBzVlbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJmBzllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJmBz1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJmB0FlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHoSpFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJmB0VlbEe6zgPim6hxQEQ" name="Risultati">
+          <modelElement href="Turni24H.uml#_JG89M1lbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJmB0llbEe6zgPim6hxQEQ" name="miglioreSol">
+        <modelElement href="Turni24H.uml#_JHoSoVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJmB01lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJmB1FlbEe6zgPim6hxQEQ" name="List">
+          <modelElement href="Turni24H.uml#_JHehoVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJiXKVlbEe6zgPim6hxQEQ" name="Accoppiamenti" associationsIn="_JJjlQFlbEe6zgPim6hxQEQ _JJsIIFlbEe6zgPim6hxQEQ" associationsOut="_JJhJAFlbEe6zgPim6hxQEQ _JJiXIFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JG1BYFlbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJiXKllbEe6zgPim6hxQEQ" position="488.0,636.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJiXK1lbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJiXLFlbEe6zgPim6hxQEQ" name="staff">
+      <modelElement href="Turni24H.uml#_JHqH0FlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJiXLVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHqu4FlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJiXLllbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJiXL1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJiXMFlbEe6zgPim6hxQEQ" name="Staff">
+        <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJiXMVlbEe6zgPim6hxQEQ" name="turno">
+      <modelElement href="Turni24H.uml#_JHqu4VlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJiXMllbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHqu4llbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJiXM1lbEe6zgPim6hxQEQ" label="~"/>
+      <cardinality xmi:id="_JJiXNFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJiXNVlbEe6zgPim6hxQEQ" name="Turno">
+        <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJiXNllbEe6zgPim6hxQEQ" name="getStaff">
+      <modelElement href="Turni24H.uml#_JG2PgFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJiXN1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXOFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJiXOVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHdThFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJiXOllbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJiXO1lbEe6zgPim6hxQEQ" name="getTurno">
+      <modelElement href="Turni24H.uml#_JG2PgVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJiXPFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXPVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJiXPllbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHdTh1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJiXP1lbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJiXQFlbEe6zgPim6hxQEQ" name="hashCode">
+      <modelElement href="Turni24H.uml#_JG2PgllbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJiXQVlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JG22kVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJiXQllbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JG22kllbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJiXQ1lbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXRFlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJiXRVlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JG22kFlbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJiXRllbEe6zgPim6hxQEQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJiXR1lbEe6zgPim6hxQEQ" name="Accoppiamenti">
+      <modelElement href="Turni24H.uml#_JHcscllbEe6zgPim6hxQEQ"/>
+      <keywords xmi:id="_JJiXSFlbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJiXSVlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXSllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJiXS1lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHdTg1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJiXTFlbEe6zgPim6hxQEQ" name="Accoppiamenti">
+          <modelElement href="Turni24H.uml#_JG1BYFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJiXTVlbEe6zgPim6hxQEQ" name="staff">
+        <modelElement href="Turni24H.uml#_JHcsc1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJiXTllbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJiXT1lbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJiXUFlbEe6zgPim6hxQEQ" name="turno">
+        <modelElement href="Turni24H.uml#_JHdTgFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJiXUVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJiXUllbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJiXU1lbEe6zgPim6hxQEQ" name="setStaff">
+      <modelElement href="Turni24H.uml#_JHdThVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJiXVFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXVVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJiXVllbEe6zgPim6hxQEQ" name="staff">
+        <modelElement href="Turni24H.uml#_JHdThllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJiXV1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJiXWFlbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJiXWVlbEe6zgPim6hxQEQ" name="setTurno">
+      <modelElement href="Turni24H.uml#_JHdTiFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJiXWllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXW1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JJiXXFlbEe6zgPim6hxQEQ" name="turno">
+        <modelElement href="Turni24H.uml#_JHdTiVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJiXXVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJiXXllbEe6zgPim6hxQEQ" name="Turno">
+          <modelElement href="Turni24H.uml#_JHCcwFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JJiXX1lbEe6zgPim6hxQEQ" name="equals">
+      <modelElement href="Turni24H.uml#_JHkoQVlbEe6zgPim6hxQEQ"/>
+      <stereotypes xmi:id="_JJiXYFlbEe6zgPim6hxQEQ" name="LegacyStyledElement">
+        <modelElement href="Turni24H.uml#_JHkoRFlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JJiXYVlbEe6zgPim6hxQEQ" name="Annotations">
+        <modelElement href="Turni24H.uml#_JHkoRVlbEe6zgPim6hxQEQ"/>
+      </stereotypes>
+      <visibility xmi:id="_JJiXYllbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJiXY1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJiXZFlbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHkoQ1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJiXZVlbEe6zgPim6hxQEQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJiXZllbEe6zgPim6hxQEQ" name="obj">
+        <modelElement href="Turni24H.uml#_JHkoQllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJiXZ1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJiXaFlbEe6zgPim6hxQEQ" name="Object">
+          <modelElement href="Turni24H.uml#_JHkBMVlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JJodwFlbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali" associationsOut="_JJnPoFlbEe6zgPim6hxQEQ">
+    <modelElement href="Turni24H.uml#_JHBOo1lbEe6zgPim6hxQEQ"/>
+    <visualProperties xmi:id="_JJodwVlbEe6zgPim6hxQEQ" position="300.0,440.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JJodwllbEe6zgPim6hxQEQ" label="+"/>
+    <attributes xmi:id="_JJodw1lbEe6zgPim6hxQEQ" name="s">
+      <modelElement href="Turni24H.uml#_JHtyMFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJodxFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJodxVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJodxllbEe6zgPim6hxQEQ" name="Staff">
+        <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJodx1lbEe6zgPim6hxQEQ" name="gg1">
+      <modelElement href="Turni24H.uml#_JHtyMVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJodyFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJodyVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJodyllbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJody1lbEe6zgPim6hxQEQ" name="gg2">
+      <modelElement href="Turni24H.uml#_JHtyMllbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJodzFlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJodzVlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJodzllbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJodz1lbEe6zgPim6hxQEQ" name="gg3">
+      <modelElement href="Turni24H.uml#_JHtyM1lbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJod0FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJod0VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJod0llbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJod01lbEe6zgPim6hxQEQ" name="gg4">
+      <modelElement href="Turni24H.uml#_JHtyNFlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJod1FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJod1VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJod1llbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJod11lbEe6zgPim6hxQEQ" name="gg5">
+      <modelElement href="Turni24H.uml#_JHtyNVlbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJod2FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJod2VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJod2llbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJod21lbEe6zgPim6hxQEQ" name="gg6">
+      <modelElement href="Turni24H.uml#_JHtyNllbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJod3FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJod3VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJod3llbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JJod31lbEe6zgPim6hxQEQ" name="gg7">
+      <modelElement href="Turni24H.uml#_JHtyN1lbEe6zgPim6hxQEQ"/>
+      <visibility xmi:id="_JJod4FlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJod4VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <type xmi:id="_JJod4llbEe6zgPim6hxQEQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JJod41lbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali">
+      <modelElement href="Turni24H.uml#_JHiMAFlbEe6zgPim6hxQEQ"/>
+      <visualProperties xmi:id="_u1NSQFlbEe6zgPim6hxQEQ" visible="false"/>
+      <keywords xmi:id="_JJod5FlbEe6zgPim6hxQEQ" keyword="create"/>
+      <visibility xmi:id="_JJod5VlbEe6zgPim6hxQEQ" label="+"/>
+      <cardinality xmi:id="_JJod5llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJod51lbEe6zgPim6hxQEQ">
+        <modelElement href="Turni24H.uml#_JHiMC1lbEe6zgPim6hxQEQ"/>
+        <type xmi:id="_JJod6FlbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali">
+          <modelElement href="Turni24H.uml#_JHBOo1lbEe6zgPim6hxQEQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JJod6VlbEe6zgPim6hxQEQ" name="s">
+        <modelElement href="Turni24H.uml#_JHiMAVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod6llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod61lbEe6zgPim6hxQEQ" name="Staff">
+          <modelElement href="Turni24H.uml#_JG_ZcFlbEe6zgPim6hxQEQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod7FlbEe6zgPim6hxQEQ" name="gg1">
+        <modelElement href="Turni24H.uml#_JHiMAllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod7VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod7llbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod71lbEe6zgPim6hxQEQ" name="gg2">
+        <modelElement href="Turni24H.uml#_JHiMA1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod8FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod8VlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod8llbEe6zgPim6hxQEQ" name="gg3">
+        <modelElement href="Turni24H.uml#_JHiMBFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod81lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod9FlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod9VlbEe6zgPim6hxQEQ" name="gg4">
+        <modelElement href="Turni24H.uml#_JHiMBVlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod9llbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod91lbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod-FlbEe6zgPim6hxQEQ" name="gg5">
+        <modelElement href="Turni24H.uml#_JHiMBllbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod-VlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod-llbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod-1lbEe6zgPim6hxQEQ" name="gg6">
+        <modelElement href="Turni24H.uml#_JHiMB1lbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod_FlbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJod_VlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JJod_llbEe6zgPim6hxQEQ" name="gg7">
+        <modelElement href="Turni24H.uml#_JHiMCFlbEe6zgPim6hxQEQ"/>
+        <cardinality xmi:id="_JJod_1lbEe6zgPim6hxQEQ" label="1" max="1" min="1"/>
+        <type xmi:id="_JJoeAFlbEe6zgPim6hxQEQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

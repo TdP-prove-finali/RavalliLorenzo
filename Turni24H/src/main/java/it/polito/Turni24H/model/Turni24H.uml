@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_I8ARcFlbEe6zgPim6hxQEQ" name="Turni24H">
+    <eAnnotations xmi:id="_JBcyIFlbEe6zgPim6hxQEQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_JBcyIVlbEe6zgPim6hxQEQ" source="codegen">
+        <details xmi:id="_JBcyIllbEe6zgPim6hxQEQ" key="codegenDirectory" value="/Turni24H/src/main/java"/>
+        <details xmi:id="_JJZ0QFlbEe6zgPim6hxQEQ" key="AssociatedSourceCode" value="/Turni24H/src/main/java/it/polito/Turni24H/model/Accoppiamenti.java;4121898673/1;/Turni24H/src/main/java/it/polito/Turni24H/model/GiorniOff.java;837597832/1;/Turni24H/src/main/java/it/polito/Turni24H/model/Model.java;1241075677/1;/Turni24H/src/main/java/it/polito/Turni24H/model/RichiestaTurni.java;1732512391/1;/Turni24H/src/main/java/it/polito/Turni24H/model/Risultati.java;4119093418/1;/Turni24H/src/main/java/it/polito/Turni24H/model/Staff.java;2474749193/1;/Turni24H/src/main/java/it/polito/Turni24H/model/TurniAssegnatiSettimanali.java;470943262/1;/Turni24H/src/main/java/it/polito/Turni24H/model/Turno.java;387271351/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_JG1ocFlbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1ocVlbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1ocllbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1oc1lbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1odFlbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1odVlbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1odllbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1od1lbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_JG1oeFlbEe6zgPim6hxQEQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JGm-8FlbEe6zgPim6hxQEQ" name="it">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JGm-8VlbEe6zgPim6hxQEQ" name="polito">
+        <packagedElement xmi:type="uml:Package" xmi:id="_JGm-8llbEe6zgPim6hxQEQ" name="Turni24H">
+          <packagedElement xmi:type="uml:Package" xmi:id="_JGoNEFlbEe6zgPim6hxQEQ" name="model">
+            <packagedElement xmi:type="uml:Class" xmi:id="_JG1BYFlbEe6zgPim6hxQEQ" name="Accoppiamenti">
+              <ownedAttribute xmi:id="_JHqH0FlbEe6zgPim6hxQEQ" name="staff" visibility="package" type="_JG_ZcFlbEe6zgPim6hxQEQ" association="_JH3jMFlbEe6zgPim6hxQEQ"/>
+              <ownedAttribute xmi:id="_JHqu4VlbEe6zgPim6hxQEQ" name="turno" visibility="package" type="_JHCcwFlbEe6zgPim6hxQEQ" association="_JH3jM1lbEe6zgPim6hxQEQ"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvAUFlbEe6zgPim6hxQEQ" name="Accoppiamenti" specification="_JHcscllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvAUVlbEe6zgPim6hxQEQ" name="staff" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHvAUllbEe6zgPim6hxQEQ" name="turno" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHvAU1lbEe6zgPim6hxQEQ" type="_JG1BYFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>super();
+		this.staff = staff;
+		this.turno = turno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnYFlbEe6zgPim6hxQEQ" name="getStaff" specification="_JG2PgFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvnYVlbEe6zgPim6hxQEQ" type="_JG_ZcFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>return staff;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnYllbEe6zgPim6hxQEQ" name="setStaff" specification="_JHdThVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvnY1lbEe6zgPim6hxQEQ" name="staff" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <language>java</language>
+                <body>this.staff = staff;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnZFlbEe6zgPim6hxQEQ" name="getTurno" specification="_JG2PgVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvnZVlbEe6zgPim6hxQEQ" type="_JHCcwFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>return turno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnZllbEe6zgPim6hxQEQ" name="setTurno" specification="_JHdTiFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvnZ1lbEe6zgPim6hxQEQ" name="turno" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <language>java</language>
+                <body>this.turno = turno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnaFlbEe6zgPim6hxQEQ" name="hashCode" specification="_JG2PgllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvnaVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Objects.hash(staff, turno);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnallbEe6zgPim6hxQEQ" name="equals" specification="_JHkoQVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvna1lbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHvnbFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Accoppiamenti other = (Accoppiamenti) obj;
+		return Objects.equals(staff, other.staff) &amp;&amp; Objects.equals(turno, other.turno);
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JG2PgFlbEe6zgPim6hxQEQ" name="getStaff" method="_JHvnYFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHdThFlbEe6zgPim6hxQEQ" type="_JG_ZcFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG2PgVlbEe6zgPim6hxQEQ" name="getTurno" method="_JHvnZFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHdTh1lbEe6zgPim6hxQEQ" type="_JHCcwFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG2PgllbEe6zgPim6hxQEQ" name="hashCode" method="_JHvnaFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG22kFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHcscllbEe6zgPim6hxQEQ" name="Accoppiamenti" method="_JHvAUFlbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JHdTgVlbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JHdTgllbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JHcsc1lbEe6zgPim6hxQEQ" name="staff" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHdTgFlbEe6zgPim6hxQEQ" name="turno" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHdTg1lbEe6zgPim6hxQEQ" type="_JG1BYFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHdThVlbEe6zgPim6hxQEQ" name="setStaff" method="_JHvnYllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHdThllbEe6zgPim6hxQEQ" name="staff" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHdTiFlbEe6zgPim6hxQEQ" name="setTurno" method="_JHvnZllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHdTiVlbEe6zgPim6hxQEQ" name="turno" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHkoQVlbEe6zgPim6hxQEQ" name="equals" method="_JHvnallbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHkoQllbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHkoQ1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JG3doFlbEe6zgPim6hxQEQ" name="GiorniOff">
+              <ownedAttribute xmi:id="_JHqu41lbEe6zgPim6hxQEQ" name="idStaff" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHqu5VlbEe6zgPim6hxQEQ" name="Giorno" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnbVlbEe6zgPim6hxQEQ" name="getIdStaff" specification="_JG4EsFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvnbllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return idStaff;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnb1lbEe6zgPim6hxQEQ" name="setIdStaff" specification="_JG4EsllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvncFlbEe6zgPim6hxQEQ" name="idStaff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.idStaff = idStaff;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvncVlbEe6zgPim6hxQEQ" name="getGiorno" specification="_JG4EtFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvncllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Giorno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnc1lbEe6zgPim6hxQEQ" name="setGiorno" specification="_JG4EtllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvndFlbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>Giorno = giorno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvndVlbEe6zgPim6hxQEQ" name="hashCode" specification="_JG4EuFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvndllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Objects.hash(Giorno, idStaff);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnd1lbEe6zgPim6hxQEQ" name="equals" specification="_JHkoR1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvneFlbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHvneVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		GiorniOff other = (GiorniOff) obj;
+		return Giorno == other.Giorno &amp;&amp; idStaff == other.idStaff;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHvnellbEe6zgPim6hxQEQ" name="GiorniOff" specification="_JG4rw1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHvne1lbEe6zgPim6hxQEQ" name="idStaff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHvnfFlbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHvnfVlbEe6zgPim6hxQEQ" type="_JG3doFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>super();
+		this.idStaff = idStaff;
+		Giorno = giorno;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JG4EsFlbEe6zgPim6hxQEQ" name="getIdStaff" method="_JHvnbVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG4EsVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG4EsllbEe6zgPim6hxQEQ" name="setIdStaff" method="_JHvnb1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG4Es1lbEe6zgPim6hxQEQ" name="idStaff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG4EtFlbEe6zgPim6hxQEQ" name="getGiorno" method="_JHvncVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG4EtVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG4EtllbEe6zgPim6hxQEQ" name="setGiorno" method="_JHvnc1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG4Et1lbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG4EuFlbEe6zgPim6hxQEQ" name="hashCode" method="_JHvndVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG4EuVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG4rw1lbEe6zgPim6hxQEQ" name="GiorniOff" method="_JHvnellbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JG4rxllbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JG4rx1lbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JG4rxFlbEe6zgPim6hxQEQ" name="idStaff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG4rxVlbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG4ryFlbEe6zgPim6hxQEQ" type="_JG3doFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHkoR1lbEe6zgPim6hxQEQ" name="equals" method="_JHvnd1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHkoSFlbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHlPUFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JG4ryVlbEe6zgPim6hxQEQ" name="Model">
+              <ownedAttribute xmi:id="_JHqu51lbEe6zgPim6hxQEQ" name="dao" visibility="private" type="_JHeho1lbEe6zgPim6hxQEQ" association="_JH3jNllbEe6zgPim6hxQEQ"/>
+              <ownedAttribute xmi:id="_JHqu6VlbEe6zgPim6hxQEQ" name="miglioriAccoppiamenti" visibility="private" type="_JG1BYFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4KQVlbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHqu6llbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrV8VlbEe6zgPim6hxQEQ" name="turni" visibility="private" type="_JHCcwFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4KRFlbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHrV8llbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrV9FlbEe6zgPim6hxQEQ" name="allStaff" type="_JG_ZcFlbEe6zgPim6hxQEQ" isOrdered="true" isReadOnly="true" association="_JH4KR1lbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHrV9VlbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrV9llbEe6zgPim6hxQEQ" name="giorniOff" visibility="private" type="_JG3doFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4KSllbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHrV91lbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrV-VlbEe6zgPim6hxQEQ" name="richiesteTurni" visibility="private" type="_JG7vEFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4KTVlbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHrV-llbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrV_FlbEe6zgPim6hxQEQ" name="solTrovata" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrV_llbEe6zgPim6hxQEQ" name="contatore" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHrWAFlbEe6zgPim6hxQEQ" name="migliorPunteggio" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHr9AVlbEe6zgPim6hxQEQ" name="turniTotaliRichiesti" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHr9AllbEe6zgPim6hxQEQ" name="turniTotaliDisponibili" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOcFlbEe6zgPim6hxQEQ" name="Model" specification="_JG5S0FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOcVlbEe6zgPim6hxQEQ" type="_JG4ryVlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>if(this.dao== null)
+			dao = new Turni24HDao();
+		if(this.turni == null) {
+			turni = new ArrayList&lt;>();
+			turni.addAll(dao.getAllTurni());
+		}
+		if(this.allStaff == null) {
+			allStaff = new ArrayList&lt;>();
+			allStaff.addAll(dao.getAllStaff());
+		}
+		if(this.giorniOff== null)
+			giorniOff = new ArrayList&lt;>();
+			giorniOff.addAll(dao.getAllGiorniOff());
+		
+		if(this.richiesteTurni == null) {
+			richiesteTurni = new ArrayList&lt;>();
+			richiesteTurni.addAll(dao.getAllRichiestaTurniOn());
+			richiesteTurni.addAll(dao.getAllRichiestaTurniOff());
+			Collections.sort(richiesteTurni, new Comparator&lt;RichiestaTurni>() {  //ordino le richieste per importanza
+             public int compare(RichiestaTurni s1, RichiestaTurni s2) {
+                 return s2.getPeso() - s1.getPeso();
+             }});
+		}
+		
+		this.turniTotaliDisponibili = turniDisp(allStaff);
+		this.turniTotaliRichiesti = turniTot(turni);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOcllbEe6zgPim6hxQEQ" name="cercaLista" specification="_JG554FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOc1lbEe6zgPim6hxQEQ" name="profondita">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOdFlbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOdVlbEe6zgPim6hxQEQ" name="richiestiOn">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOdllbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOd1lbEe6zgPim6hxQEQ" name="straordinario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOeFlbEe6zgPim6hxQEQ" type="_JG1BYFlbEe6zgPim6hxQEQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHwOeVlbEe6zgPim6hxQEQ" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;Accoppiamenti> parziale = new ArrayList&lt;>();
+		miglioriAccoppiamenti = new ArrayList&lt;>();
+		solTrovata = false;
+		migliorPunteggio = 1000000000;
+
+	
+		if(richiestiOn) {														
+			aggiungiTurni(parziale, richiestiOff, weekend, straordinario);		//aggiungo i turni richiesti 
+		}
+
+		//prove in base alla richiesta dell'utente per il calcolo turni
+		for(int i = 0; i&lt; profondita ; i++) {
+			contatore = 0; 
+			Collections.shuffle(turni);		//ordino casualmete i turni 
+			cerca(parziale, richiestiOff, weekend, straordinario, turniTotaliRichiesti, migliorPunteggio);	
+			System.out.println(i+&quot; = &quot;+ miglioriAccoppiamenti.size()+ &quot; di punteggio: &quot; + this.migliorPunteggio);
+		}
+		
+		System.out.println(&quot;BEST = &quot;+ miglioriAccoppiamenti.size() + &quot; di punteggio: &quot; + this.migliorPunteggio);
+		
+		return miglioriAccoppiamenti;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOellbEe6zgPim6hxQEQ" name="aggiungiTurni" specification="_JHlPVFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOe1lbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOfFlbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOfVlbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOfllbEe6zgPim6hxQEQ" name="straordinario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>for(Turno t : turni) {
+				if(turniCompletati(t, parziale)==false) {
+					for(RichiestaTurni r : this.richiesteTurni) {
+						if(r.isOffDay()==false &amp;&amp; r.getGiorno() == t.getGiorno() &amp;&amp; 
+									r.getTipoTurno().compareTo(t.getTipoTurno()) == 0) {
+							for(Staff s : allStaff) {
+								if(s.getId() == r.getIdStaff()) {
+									if(isDisponibile(parziale, s, t, richiestiOff, weekend, straordinario)
+											&amp;&amp; turniCompletati(t, parziale)==false) {
+										Accoppiamenti a = new Accoppiamenti(s,t);
+										parziale.add(a);
+										break;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOf1lbEe6zgPim6hxQEQ" name="cerca" specification="_JHl2YVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOgFlbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOgVlbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOgllbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOg1lbEe6zgPim6hxQEQ" name="straordinario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOhFlbEe6zgPim6hxQEQ" name="turniDisponibili">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOhVlbEe6zgPim6hxQEQ" name="punteggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>//cond Terminazione con suluzione ottima o al raggiungimento di un limite di tentatativi con un contatore
+		if(solTrovata || contatore == 15000)
+			return;
+		
+		contatore ++;			//ogni iterazione aggiorno il contatore
+		
+		int p = calcolaPunteggio(parziale);
+		
+		if(p==0) {					//sol ottima
+			this.miglioriAccoppiamenti.clear();
+			this.miglioriAccoppiamenti.addAll(parziale); 
+			this.solTrovata = true;
+			return;
+		}
+		
+		if(p &lt; punteggio) {			//soluzione migliore di quella trovata fin'ora
+			this.miglioriAccoppiamenti.clear();
+			this.miglioriAccoppiamenti.addAll(parziale); 
+			this.migliorPunteggio = p;
+			punteggio = p;
+			
+		}
+		
+		//prima vengono aggiunti dipendenti senza straordinario
+		for(Turno t : turni) {
+			if(turniCompletati(t, parziale)==false) {
+				for(Staff s : allStaff) {
+					if(isDisponibile(parziale, s, t, richiestiOff, weekend, 0)
+							&amp;&amp; turniCompletati(t, parziale)==false) {
+						Accoppiamenti a = new Accoppiamenti(s,t);
+						parziale.add(a);
+						cerca(parziale, richiestiOff, weekend, straordinario, turniDisponibili, punteggio);
+						parziale.remove(a);
+					}
+				}
+
+			}
+		}
+		//nel caso in cui gli straordinari siano attivi e i turni non sono completati
+		if(straordinario !=0){
+			for(Turno t : turni) {
+				if(turniCompletati(t, parziale)==false) {
+					for(Staff s : allStaff) {
+						if(isDisponibile(parziale, s, t, richiestiOff, weekend, straordinario)
+								&amp;&amp; turniCompletati(t, parziale)==false) {
+							Accoppiamenti a = new Accoppiamenti(s,t);
+							parziale.add(a);
+							cerca(parziale, richiestiOff, weekend, straordinario, turniDisponibili, punteggio);
+							parziale.remove(a);
+						}
+					}
+	
+				}
+			}
+		}
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOhllbEe6zgPim6hxQEQ" name="calcolaPunteggio" specification="_JHl2aVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOh1lbEe6zgPim6hxQEQ" name="lista" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOiFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int punteggio = 0;
+		
+		for(Turno t : turni) {
+			int personaleATurno = 0;
+			for(Accoppiamenti a : lista) {
+				if(t.equals(a.getTurno())) {
+					personaleATurno ++;
+				}
+			}
+			if(t.getRichiesta()>personaleATurno)
+				punteggio += (Math.pow(10,(t.getRichiesta()-personaleATurno)) + 10); //se turno non completato
+				
+		}
+		for(Staff s : allStaff) {
+			int turniFatti = 0;
+			for(Accoppiamenti a : lista) {
+				if(s.equals(a.getStaff())) {
+					turniFatti ++;
+				}
+			}
+			if(((s.getMinTotalMin() /60) /8) > turniFatti) //se staff fa meno turni del dovuto
+				punteggio += (Math.pow(10, (((s.getMinTotalMin() /60)/8)-turniFatti)) + 10);
+			if(((s.getMaxTotalMin() /60) /8) &lt; turniFatti) //se staff fa straordinari
+				punteggio += Math.pow(10, (turniFatti - ((s.getMaxTotalMin() /60) /8)));
+		}
+		
+		return punteggio;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOiVlbEe6zgPim6hxQEQ" name="turniTot" specification="_JHmdcFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOillbEe6zgPim6hxQEQ" name="lista" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOi1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int i = 0;
+		for(Turno t : lista) {
+			i += t.getRichiesta();
+		}
+		
+		return i;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOjFlbEe6zgPim6hxQEQ" name="turniDisp" specification="_JHmddFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOjVlbEe6zgPim6hxQEQ" name="lista" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOjllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int i = 0;
+	for(Staff s : lista) {
+		i += ((s.getMaxTotalMin()/60)/8);
+	}
+	
+	return i;
+</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOj1lbEe6zgPim6hxQEQ" name="turniCompletati" specification="_JHmdeFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOkFlbEe6zgPim6hxQEQ" name="t" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOkVlbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOkllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int completati = 0;
+		boolean b = false;
+		for(Accoppiamenti a : parziale) {
+			if(a.getTurno().equals(t))
+				completati ++;
+		}
+		if(t.getRichiesta()&lt;=completati)
+			b = true;
+		
+		return b;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOk1lbEe6zgPim6hxQEQ" name="isDisponibile" specification="_JHnEgVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOlFlbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOlVlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOlllbEe6zgPim6hxQEQ" name="t" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHwOl1lbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOmFlbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOmVlbEe6zgPim6hxQEQ" name="straordinari">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOmllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;Turno> turniAssegnati = new ArrayList&lt;>();
+		for(Accoppiamenti a : parziale) {
+			if(a.getStaff().equals(s))
+				turniAssegnati.add(a.getTurno());
+		}
+		
+		//supero le ore massime
+		int minutiFatti = turniAssegnati.size() * 60 * 8;
+	
+		if(minutiFatti >= (s.getMaxTotalMin() + (60*8*straordinari))) {
+			return false;
+		}
+		
+		//se turno lo stesso giorno non assegno
+		for(Turno tt : turniAssegnati) {
+			if(tt.getGiorno() == t.getGiorno())
+				return false;
+		}
+		
+		//max 5 gg a settimana (5 su 7) // comprende max 5 gg e poi pausa
+		int ggPrimaSett = 0;
+		for(Turno tt : turniAssegnati) {
+			if(tt.getGiorno() == t.getGiorno() - 1 ||
+					tt.getGiorno() == t.getGiorno() -2 ||
+					tt.getGiorno() == t.getGiorno() -3 ||
+					tt.getGiorno() == t.getGiorno() -4 ||
+					tt.getGiorno() == t.getGiorno() -5 ||
+					tt.getGiorno() == t.getGiorno() -6 ||
+					tt.getGiorno() == t.getGiorno() -7 )
+				ggPrimaSett ++;
+		}
+		if(ggPrimaSett==5)
+			return false;
+		
+		//max 2 notti di fila
+		if(t.getTipoTurno().compareTo(&quot;S&quot;)==0 ) {
+			int ggPrimaN = 0;
+			int ggDopoN = 0;
+			int dueggPrimaN = 0;
+			int dueggDopoN = 0;
+			
+			for(Turno tt : turniAssegnati) {
+				if(((tt.getGiorno() == (t.getGiorno() - 1) &amp;&amp; tt.getTipoTurno().compareTo(&quot;S&quot;) == 0)))
+					ggPrimaN ++;
+				if(((tt.getGiorno() == (t.getGiorno() + 1) &amp;&amp; tt.getTipoTurno().compareTo(&quot;S&quot;) == 0)))
+					ggDopoN++;
+				if(((tt.getGiorno() == (t.getGiorno() - 2) &amp;&amp; tt.getTipoTurno().compareTo(&quot;S&quot;) == 0)))
+					dueggPrimaN++;
+				if(((tt.getGiorno() == (t.getGiorno() + 2) &amp;&amp; tt.getTipoTurno().compareTo(&quot;S&quot;) == 0)))
+					dueggDopoN++;
+			}
+			if((ggPrimaN == 1 &amp;&amp; dueggPrimaN == 1) ||
+					(ggPrimaN == 1 &amp;&amp; ggDopoN == 1)||
+					(ggDopoN ==1 &amp;&amp; dueggDopoN == 1))
+				return false;
+		}
+
+		
+		//se notte prima no mattina o pomeriggio
+		if(t.getTipoTurno().compareTo(&quot;M&quot;)==0 || t.getTipoTurno().compareTo(&quot;P&quot;)==0) {
+			for(Turno tt : turniAssegnati) {
+				if((tt.getGiorno() == t.getGiorno() - 1 &amp;&amp; tt.getTipoTurno().compareTo(&quot;S&quot;) == 0))
+					return false;
+			}
+		}
+		if(t.getTipoTurno().compareTo(&quot;S&quot;)==0 ) { 				//ggdopo se gia assegnato
+			for(Turno tt : turniAssegnati) {
+				if((tt.getGiorno() == t.getGiorno() + 1 &amp;&amp; tt.getTipoTurno().compareTo(&quot;M&quot;) == 0))
+					return false;
+				if((tt.getGiorno() == t.getGiorno() + 1 &amp;&amp; tt.getTipoTurno().compareTo(&quot;P&quot;) == 0))
+					return false;
+			}
+		}
+		
+		 //se pomeriggio prima no mattina 
+		if(t.getTipoTurno().compareTo(&quot;M&quot;)==0) {
+			for(Turno tt : turniAssegnati) {
+				if(tt.getGiorno() == t.getGiorno() - 1 &amp;&amp; tt.getTipoTurno().compareTo(&quot;P&quot;) == 0) {
+					return false;
+				}
+			}
+		}
+		if(t.getTipoTurno().compareTo(&quot;P&quot;)==0) {
+			for(Turno tt : turniAssegnati) {
+				if(tt.getGiorno() == t.getGiorno() + 1 &amp;&amp; tt.getTipoTurno().compareTo(&quot;M&quot;) == 0) {
+					return false;
+				}
+			}
+		}
+		// weekend (quanti giorni di weeekend a riposo si vogliono minimo su 8 gg)
+		if(t.isWeekEnd()) {
+			int weekendTot = 0;
+			for(Turno tt : turniAssegnati) {
+				if(tt.isWeekEnd())
+					weekendTot ++;
+			}
+			if(weekendTot >= (8 - weekend)) {						
+				return false;
+			}
+		}
+		
+		//Rispetto giorni off
+		for(GiorniOff gg : this.giorniOff) {
+			if(gg.getIdStaff()==s.getId() &amp;&amp; gg.getGiorno() == t.getGiorno())
+				return false;
+		}
+		//Rispetto richieste 
+		if(richiestiOff) {
+			for(RichiestaTurni r : this.richiesteTurni) {
+				if(r.isOffDay() &amp;&amp; r.getIdStaff()==s.getId() 
+						&amp;&amp; r.getGiorno() == t.getGiorno() &amp;&amp; 
+						r.getTipoTurno().compareTo(t.getTipoTurno())==0) {
+					return false;
+				}
+			}
+		}
+		
+		//Non supero 1/3 dei turni in notti
+		if(t.getTipoTurno().compareTo(&quot;S&quot;)==0) {
+			int sere = 0;
+			for(Turno tt : turniAssegnati) {
+				if(tt.getTipoTurno().compareTo(&quot;S&quot;) == 0)
+					sere ++;
+			}
+			if((sere* 60 * 8) >= ((s.getMaxTotalMin() + (60*8*straordinari))/3))
+				return false;
+		}
+		//Non supero 1/2 dei turni in mattina
+		if(t.getTipoTurno().compareTo(&quot;M&quot;)==0) {
+			int mattine = 0;
+			for(Turno tt : turniAssegnati) {
+				if(tt.getTipoTurno().compareTo(&quot;M&quot;) == 0)
+					mattine ++;
+			}
+			if((mattine* 60 * 8) >= ((s.getMaxTotalMin() + (60*8*straordinari))/2))
+				return false;
+		}
+		//Non supero 1/2 dei turni in pomeriggio
+		if(t.getTipoTurno().compareTo(&quot;P&quot;)==0) {
+			int pomeriggi = 0;
+			for(Turno tt : turniAssegnati) {
+				if(tt.getTipoTurno().compareTo(&quot;P&quot;) == 0)
+					pomeriggi ++;
+			}
+			if((pomeriggi* 60 * 8) >= ((s.getMaxTotalMin() + (60*8*straordinari))/2))
+				return false;
+		}
+		
+		return true;
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHwOm1lbEe6zgPim6hxQEQ" name="generaListaSettimana" specification="_JG6g8FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHwOnFlbEe6zgPim6hxQEQ" name="i">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHwOnVlbEe6zgPim6hxQEQ" type="_JHBOo1lbEe6zgPim6hxQEQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHwOnllbEe6zgPim6hxQEQ" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>//inizializzati a riposo
+		String gg1; 	
+		String gg2;
+		String gg3;
+		String gg4;
+		String gg5;
+		String gg6;
+		String gg7;
+		
+		List&lt;TurniAssegnatiSettimanali> turniAss = new ArrayList&lt;>();
+		
+		
+		if(i == 1) {
+			for(Staff s :allStaff) {
+				gg1 = &quot;R&quot;;
+				gg2 = &quot;R&quot;;
+				gg3 = &quot;R&quot;;
+				gg4 = &quot;R&quot;;
+				gg5 = &quot;R&quot;;
+				gg6 = &quot;R&quot;;
+				gg7 = &quot;R&quot;;
+				for(Accoppiamenti a : miglioriAccoppiamenti) {
+					if(a.getStaff().equals(s) &amp;&amp; a.getTurno().getIdTurno() &lt; 21) {
+						if(a.getTurno().getGiorno() == 0)
+							gg1 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 1)
+							gg2 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 2)
+							gg3 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 3)
+							gg4 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 4)
+							gg5 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 5)
+							gg6 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 6)
+							gg7 = a.getTurno().getTipoTurno();
+					}
+				}
+				TurniAssegnatiSettimanali tas = new TurniAssegnatiSettimanali(s, gg1, gg2, gg3, gg4, gg5, gg6, gg7);
+				turniAss.add(tas);
+			}
+		}
+		if(i == 2) {
+			for(Staff s :allStaff) {
+				gg1 = &quot;R&quot;;
+				gg2 = &quot;R&quot;;
+				gg3 = &quot;R&quot;;
+				gg4 = &quot;R&quot;;
+				gg5 = &quot;R&quot;;
+				gg6 = &quot;R&quot;;
+				gg7 = &quot;R&quot;;
+				for(Accoppiamenti a : miglioriAccoppiamenti) {
+					if(a.getStaff().equals(s) &amp;&amp; a.getTurno().getIdTurno() >= 21 &amp;&amp; a.getTurno().getIdTurno() &lt; 42) {
+						if(a.getTurno().getGiorno() == 7)
+							gg1 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 8)
+							gg2 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 9)
+							gg3 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 10)
+							gg4 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 11)
+							gg5 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 12)
+							gg6 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 13)
+							gg7 = a.getTurno().getTipoTurno();
+					}
+				}
+				TurniAssegnatiSettimanali tas = new TurniAssegnatiSettimanali(s, gg1, gg2, gg3, gg4, gg5, gg6, gg7);
+				turniAss.add(tas);
+			}
+		}
+		if(i == 3) {
+			for(Staff s :allStaff) {
+				gg1 = &quot;R&quot;;
+				gg2 = &quot;R&quot;;
+				gg3 = &quot;R&quot;;
+				gg4 = &quot;R&quot;;
+				gg5 = &quot;R&quot;;
+				gg6 = &quot;R&quot;;
+				gg7 = &quot;R&quot;;
+				for(Accoppiamenti a : miglioriAccoppiamenti) {
+					if(a.getStaff().equals(s) &amp;&amp; a.getTurno().getIdTurno() >= 42 &amp;&amp; a.getTurno().getIdTurno() &lt; 63) {
+						if(a.getTurno().getGiorno() == 14)
+							gg1 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 15)
+							gg2 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 16)
+							gg3 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 17)
+							gg4 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 18)
+							gg5 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 19)
+							gg6 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 20)
+							gg7 = a.getTurno().getTipoTurno();
+					}
+				}
+				TurniAssegnatiSettimanali tas = new TurniAssegnatiSettimanali(s, gg1, gg2, gg3, gg4, gg5, gg6, gg7);
+				turniAss.add(tas);
+			}
+		}
+		if(i == 4) {
+			for(Staff s :allStaff) {
+				gg1 = &quot;R&quot;;
+				gg2 = &quot;R&quot;;
+				gg3 = &quot;R&quot;;
+				gg4 = &quot;R&quot;;
+				gg5 = &quot;R&quot;;
+				gg6 = &quot;R&quot;;
+				gg7 = &quot;R&quot;;
+				for(Accoppiamenti a : miglioriAccoppiamenti) {
+					if(a.getStaff().equals(s) &amp;&amp; a.getTurno().getIdTurno() >= 63) {
+						if(a.getTurno().getGiorno() == 21)
+							gg1 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 22)
+							gg2 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 23)
+							gg3 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 24)
+							gg4 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 25)
+							gg5 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 26)
+							gg6 = a.getTurno().getTipoTurno();
+						if(a.getTurno().getGiorno() == 27)
+							gg7 = a.getTurno().getTipoTurno();
+					}
+				}
+				TurniAssegnatiSettimanali tas = new TurniAssegnatiSettimanali(s, gg1, gg2, gg3, gg4, gg5, gg6, gg7);
+				turniAss.add(tas);
+			}
+		}
+		return turniAss;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JG5S0FlbEe6zgPim6hxQEQ" name="Model" method="_JHwOcFlbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JG5S0VlbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JG5S0llbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JG5S01lbEe6zgPim6hxQEQ" type="_JG4ryVlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG554FlbEe6zgPim6hxQEQ" name="cercaLista" method="_JHwOcllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG554VlbEe6zgPim6hxQEQ" name="profondita">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG554llbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG5541lbEe6zgPim6hxQEQ" name="richiestiOn">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG555FlbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG555VlbEe6zgPim6hxQEQ" name="straordinario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG555llbEe6zgPim6hxQEQ" type="_JG1BYFlbEe6zgPim6hxQEQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JG5551lbEe6zgPim6hxQEQ" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG6g8FlbEe6zgPim6hxQEQ" name="generaListaSettimana" method="_JHwOm1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG6g8VlbEe6zgPim6hxQEQ" name="i">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG6g8llbEe6zgPim6hxQEQ" type="_JHBOo1lbEe6zgPim6hxQEQ" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JG6g81lbEe6zgPim6hxQEQ" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHlPVFlbEe6zgPim6hxQEQ" name="aggiungiTurni" visibility="private" method="_JHwOellbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHlPVVlbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHlPVllbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHlPV1lbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHlPWFlbEe6zgPim6hxQEQ" name="straordinario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHl2YVlbEe6zgPim6hxQEQ" name="cerca" visibility="private" method="_JHwOf1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHl2YllbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHl2Y1lbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHl2ZFlbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHl2ZVlbEe6zgPim6hxQEQ" name="straordinario">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHl2ZllbEe6zgPim6hxQEQ" name="turniDisponibili">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHl2Z1lbEe6zgPim6hxQEQ" name="punteggio">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHl2aVlbEe6zgPim6hxQEQ" name="calcolaPunteggio" visibility="private" method="_JHwOhllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHl2allbEe6zgPim6hxQEQ" name="lista" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHl2a1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHmdcFlbEe6zgPim6hxQEQ" name="turniTot" visibility="private" method="_JHwOiVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHmdcVlbEe6zgPim6hxQEQ" name="lista" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHmdcllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHmddFlbEe6zgPim6hxQEQ" name="turniDisp" visibility="private" method="_JHwOjFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHmddVlbEe6zgPim6hxQEQ" name="lista" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHmddllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHmdeFlbEe6zgPim6hxQEQ" name="turniCompletati" visibility="private" method="_JHwOj1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHmdeVlbEe6zgPim6hxQEQ" name="t" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHmdellbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHmde1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHnEgVlbEe6zgPim6hxQEQ" name="isDisponibile" visibility="private" method="_JHwOk1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHnEgllbEe6zgPim6hxQEQ" name="parziale" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHnEg1lbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHnEhFlbEe6zgPim6hxQEQ" name="t" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHnEhVlbEe6zgPim6hxQEQ" name="richiestiOff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHnEhllbEe6zgPim6hxQEQ" name="weekend">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHnEh1lbEe6zgPim6hxQEQ" name="straordinari">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHnEiFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JG7vEFlbEe6zgPim6hxQEQ" name="RichiestaTurni">
+              <ownedAttribute xmi:id="_JHr9A1lbEe6zgPim6hxQEQ" name="idStaff">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHr9BFlbEe6zgPim6hxQEQ" name="giorno">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHr9BVlbEe6zgPim6hxQEQ" name="tipoTurno">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHr9BllbEe6zgPim6hxQEQ" name="isOffDay" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHr9CFlbEe6zgPim6hxQEQ" name="peso">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1gFlbEe6zgPim6hxQEQ" name="RichiestaTurni" specification="_JG8WIFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1gVlbEe6zgPim6hxQEQ" name="idStaff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHw1gllbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHw1g1lbEe6zgPim6hxQEQ" name="tipoTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHw1hFlbEe6zgPim6hxQEQ" name="isOffDay">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHw1hVlbEe6zgPim6hxQEQ" name="peso">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHw1hllbEe6zgPim6hxQEQ" type="_JG7vEFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>super();
+		this.idStaff = idStaff;
+		this.giorno = giorno;
+		this.tipoTurno = tipoTurno;
+		this.isOffDay = isOffDay;
+		this.peso = peso;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1h1lbEe6zgPim6hxQEQ" name="isOffDay" specification="_JG8WKVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1iFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return isOffDay;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1iVlbEe6zgPim6hxQEQ" name="setOffDay" specification="_JG8WK1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1illbEe6zgPim6hxQEQ" name="isOffDay">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.isOffDay = isOffDay;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1i1lbEe6zgPim6hxQEQ" name="hashCode" specification="_JG8WLVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1jFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Objects.hash(giorno, idStaff, isOffDay, peso, tipoTurno);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1jVlbEe6zgPim6hxQEQ" name="equals" specification="_JHnrkFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1jllbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHw1j1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		RichiestaTurni other = (RichiestaTurni) obj;
+		return giorno == other.giorno &amp;&amp; idStaff == other.idStaff &amp;&amp; isOffDay == other.isOffDay &amp;&amp; peso == other.peso
+				&amp;&amp; Objects.equals(tipoTurno, other.tipoTurno);
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JG8WIFlbEe6zgPim6hxQEQ" name="RichiestaTurni" method="_JHw1gFlbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JG8WJllbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JG8WJ1lbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JG8WIVlbEe6zgPim6hxQEQ" name="idStaff">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG8WIllbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG8WI1lbEe6zgPim6hxQEQ" name="tipoTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG8WJFlbEe6zgPim6hxQEQ" name="isOffDay">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG8WJVlbEe6zgPim6hxQEQ" name="peso">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JG8WKFlbEe6zgPim6hxQEQ" type="_JG7vEFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG8WKVlbEe6zgPim6hxQEQ" name="isOffDay" method="_JHw1h1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG8WKllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG8WK1lbEe6zgPim6hxQEQ" name="setOffDay" method="_JHw1iVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG8WLFlbEe6zgPim6hxQEQ" name="isOffDay">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG8WLVlbEe6zgPim6hxQEQ" name="hashCode" method="_JHw1i1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JG8WLllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHnrkFlbEe6zgPim6hxQEQ" name="equals" method="_JHw1jVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHnrkVlbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHnrkllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JG89M1lbEe6zgPim6hxQEQ" name="Risultati">
+              <ownedAttribute xmi:id="_JHskEFlbEe6zgPim6hxQEQ" name="dao" visibility="private" type="_JHeho1lbEe6zgPim6hxQEQ" association="_JH4xUFlbEe6zgPim6hxQEQ"/>
+              <ownedAttribute xmi:id="_JHskEllbEe6zgPim6hxQEQ" name="miglioreSol" visibility="private" type="_JG1BYFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4xU1lbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHskE1lbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHskFVlbEe6zgPim6hxQEQ" name="allStaff" visibility="private" type="_JG_ZcFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4xVllbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHskFllbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHskGFlbEe6zgPim6hxQEQ" name="turni" visibility="private" type="_JHCcwFlbEe6zgPim6hxQEQ" isOrdered="true" association="_JH4xWVlbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHskGVlbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHskG1lbEe6zgPim6hxQEQ" name="turniNonCompletati" type="_JHCcwFlbEe6zgPim6hxQEQ" isOrdered="true" isReadOnly="true" association="_JH4xXFlbEe6zgPim6hxQEQ">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JHskHVlbEe6zgPim6hxQEQ" value="*"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1kllbEe6zgPim6hxQEQ" name="Risultati" specification="_JHoSoFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1k1lbEe6zgPim6hxQEQ" name="miglioreSol" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHw1lFlbEe6zgPim6hxQEQ" type="_JG89M1lbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>if(this.dao == null)
+			dao = new Turni24HDao();
+		if(this.turni == null) {
+			turni = new ArrayList&lt;>();
+			turni.addAll(dao.getAllTurni());
+		}
+		if(this.allStaff == null) {
+			allStaff = new ArrayList&lt;>();
+			allStaff.addAll(dao.getAllStaff());
+		}
+		this.miglioreSol = miglioreSol;
+		
+		turniNonCompletati = new ArrayList&lt;>();
+		
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1lVlbEe6zgPim6hxQEQ" name="getStaffOreInMeno" specification="_JG9kQFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1lllbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>Map&lt;Staff, Integer> mappa = new HashMap&lt;>();
+		for(Staff s : allStaff) {
+			int k = 0;
+			for(Accoppiamenti a : miglioreSol ) {
+				if(s.equals(a.getStaff())) {
+					k++;
+				}	
+			}
+			if(k &lt; ((s.getMinTotalMin()/60)/8))
+				mappa.put(s, (((s.getMinTotalMin()/60)/8) - k));
+		}
+		return mappa;	
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1l1lbEe6zgPim6hxQEQ" name="getStaffConOreDisponibili" specification="_JG9kQllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1mFlbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>Map&lt;Staff, Integer> mappa = new HashMap&lt;>();
+		for(Staff s : allStaff) {
+			int k = 0;
+			for(Accoppiamenti a : miglioreSol ) {
+				if(s.equals(a.getStaff())) {
+					k++;
+				}	
+			}
+			if(k >= ((s.getMinTotalMin()/60)/8) &amp;&amp; k &lt; ((s.getMaxTotalMin()/60)/8))
+				mappa.put(s, (((s.getMaxTotalMin()/60)/8)) - k);
+		}
+		return mappa;	
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1mVlbEe6zgPim6hxQEQ" name="getStaffStraordinario" specification="_JG-LUVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1mllbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>Map&lt;Staff, Integer> mappa = new HashMap&lt;>();
+		for(Staff s : allStaff) {
+			int k = 0;
+			for(Accoppiamenti a : miglioreSol ) {
+				if(s.equals(a.getStaff())) {
+					k++;
+				}	
+			}
+			if(k > ((s.getMaxTotalMin()/60)/8))
+				mappa.put(s, (k - ((s.getMaxTotalMin()/60)/8)));
+		}
+		return mappa;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1m1lbEe6zgPim6hxQEQ" name="getMapTurniIncompleti" specification="_JG-LU1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1nFlbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>Map&lt;Turno, Integer> mappa = new HashMap&lt;>();
+		for(Turno t : turni) {
+			int kk = 0;
+			for(Accoppiamenti a :miglioreSol ) {
+				if(t.equals(a.getTurno())) {
+					kk ++;
+				}
+			}
+			if(t.getRichiesta()>kk)
+				mappa.put(t, (t.getRichiesta() - kk));
+		}
+		return mappa;	
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1nVlbEe6zgPim6hxQEQ" name="staffTurniInPiu" specification="_JHg94FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1nllbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHw1n1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int k = 0;
+		for(Accoppiamenti a :miglioreSol) {
+			if(a.getStaff().equals(s))
+				k ++;
+		}
+		int differenza = (k - ((s.getMaxTotalMin()/60)/8));
+		return differenza;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHw1oFlbEe6zgPim6hxQEQ" name="staffTurniInMeno" specification="_JHg941lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHw1oVlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHw1ollbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int k = 0;
+		for(Accoppiamenti a :miglioreSol) {
+			if(a.getStaff().equals(s))
+				k ++;
+		}
+		int differenza = (((s.getMinTotalMin()/60)/8) - k);
+		return differenza;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxckFlbEe6zgPim6hxQEQ" name="turniInMeno" specification="_JHg95llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxckVlbEe6zgPim6hxQEQ" name="t" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHxckllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int k = 0;
+		for(Accoppiamenti a :miglioreSol) {
+			if(a.getTurno().equals(t))
+				k ++;
+		}
+		int differenza = (t.getRichiesta() - k);
+		return differenza;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JG9kQFlbEe6zgPim6hxQEQ" name="getStaffOreInMeno" method="_JHw1lVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHoSpllbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG9kQllbEe6zgPim6hxQEQ" name="getStaffConOreDisponibili" method="_JHw1l1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHoSp1lbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG-LUVlbEe6zgPim6hxQEQ" name="getStaffStraordinario" method="_JHw1mVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHoSqFlbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JG-LU1lbEe6zgPim6hxQEQ" name="getMapTurniIncompleti" method="_JHw1m1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHoSqVlbEe6zgPim6hxQEQ" type="_JHgW0llbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHg94FlbEe6zgPim6hxQEQ" name="staffTurniInPiu" method="_JHw1nVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHg94VlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHg94llbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHg941lbEe6zgPim6hxQEQ" name="staffTurniInMeno" method="_JHw1oFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHg95FlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHg95VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHg95llbEe6zgPim6hxQEQ" name="turniInMeno" method="_JHxckFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHg951lbEe6zgPim6hxQEQ" name="t" type="_JHCcwFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHg96FlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHoSoFlbEe6zgPim6hxQEQ" name="Risultati" method="_JHw1kllbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JHoSollbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JHoSo1lbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JHoSoVlbEe6zgPim6hxQEQ" name="miglioreSol" type="_JHehoVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHoSpFlbEe6zgPim6hxQEQ" type="_JG89M1lbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JG_ZcFlbEe6zgPim6hxQEQ" name="Staff">
+              <ownedAttribute xmi:id="_JHtLIllbEe6zgPim6hxQEQ" name="idStaff" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtLJFlbEe6zgPim6hxQEQ" name="name" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtLJllbEe6zgPim6hxQEQ" name="maxTotalMin" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtLKFlbEe6zgPim6hxQEQ" name="minTotalMin" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxck1lbEe6zgPim6hxQEQ" name="getId" specification="_JHAAgFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxclFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return idStaff;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxclVlbEe6zgPim6hxQEQ" name="setId" specification="_JHAAgllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxclllbEe6zgPim6hxQEQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.idStaff = id;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxcl1lbEe6zgPim6hxQEQ" name="getName" specification="_JHAAhFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxcmFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return name;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxcmVlbEe6zgPim6hxQEQ" name="setName" specification="_JHAAhllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxcmllbEe6zgPim6hxQEQ" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.name = name;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxcm1lbEe6zgPim6hxQEQ" name="getMaxTotalMin" specification="_JHAAiFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxcnFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return maxTotalMin;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JHxcnVlbEe6zgPim6hxQEQ" name="setMaxTotalMin" specification="_JHAAillbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHxcnllbEe6zgPim6hxQEQ" name="maxTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.maxTotalMin = maxTotalMin;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH0f4FlbEe6zgPim6hxQEQ" name="getMinTotalMin" specification="_JHAAjFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH0f4VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return minTotalMin;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH0f4llbEe6zgPim6hxQEQ" name="setMinTotalMin" specification="_JHAAjllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH0f41lbEe6zgPim6hxQEQ" name="minTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.minTotalMin = minTotalMin;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH0f5FlbEe6zgPim6hxQEQ" name="Staff" specification="_JHAnkFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH0f5VlbEe6zgPim6hxQEQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH0f5llbEe6zgPim6hxQEQ" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH0f51lbEe6zgPim6hxQEQ" name="maxTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH0f6FlbEe6zgPim6hxQEQ" name="minTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH0f6VlbEe6zgPim6hxQEQ" type="_JG_ZcFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>super();
+		this.idStaff = id;
+		this.name = name;
+		this.maxTotalMin = maxTotalMin;
+		this.minTotalMin = minTotalMin;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH0f6llbEe6zgPim6hxQEQ" name="toString" specification="_JHAnmFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH0f61lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.name;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH0f7FlbEe6zgPim6hxQEQ" name="hashCode" specification="_JHAnnVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH0f7VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Objects.hash(idStaff, maxTotalMin, minTotalMin, name);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH0f7llbEe6zgPim6hxQEQ" name="equals" specification="_JHo5sFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH0f71lbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JH0f8FlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Staff other = (Staff) obj;
+		return Objects.equals(idStaff, other.idStaff) &amp;&amp; Objects.equals(maxTotalMin, other.maxTotalMin)
+				&amp;&amp; Objects.equals(minTotalMin, other.minTotalMin) &amp;&amp; Objects.equals(name, other.name);
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JHAAgFlbEe6zgPim6hxQEQ" name="getId" method="_JHxck1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAgVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAgllbEe6zgPim6hxQEQ" name="setId" method="_JHxclVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAg1lbEe6zgPim6hxQEQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAhFlbEe6zgPim6hxQEQ" name="getName" method="_JHxcl1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAhVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAhllbEe6zgPim6hxQEQ" name="setName" method="_JHxcmVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAh1lbEe6zgPim6hxQEQ" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAiFlbEe6zgPim6hxQEQ" name="getMaxTotalMin" method="_JHxcm1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAiVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAillbEe6zgPim6hxQEQ" name="setMaxTotalMin" method="_JHxcnVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAi1lbEe6zgPim6hxQEQ" name="maxTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAjFlbEe6zgPim6hxQEQ" name="getMinTotalMin" method="_JH0f4FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAjVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAAjllbEe6zgPim6hxQEQ" name="setMinTotalMin" method="_JH0f4llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAAj1lbEe6zgPim6hxQEQ" name="minTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAnkFlbEe6zgPim6hxQEQ" name="Staff" method="_JH0f5FlbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JHAnlVlbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JHAnlllbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JHAnkVlbEe6zgPim6hxQEQ" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHAnkllbEe6zgPim6hxQEQ" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHAnk1lbEe6zgPim6hxQEQ" name="maxTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHAnlFlbEe6zgPim6hxQEQ" name="minTotalMin">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHAnl1lbEe6zgPim6hxQEQ" type="_JG_ZcFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAnmFlbEe6zgPim6hxQEQ" name="toString" method="_JH0f6llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAnmVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHAnnVlbEe6zgPim6hxQEQ" name="hashCode" method="_JH0f7FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHAnnllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHo5sFlbEe6zgPim6hxQEQ" name="equals" method="_JH0f7llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHo5sVlbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHo5sllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JHBOo1lbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali">
+              <ownedAttribute xmi:id="_JHtyMFlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ" isReadOnly="true" association="_JH4xX1lbEe6zgPim6hxQEQ"/>
+              <ownedAttribute xmi:id="_JHtyMVlbEe6zgPim6hxQEQ" name="gg1" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtyMllbEe6zgPim6hxQEQ" name="gg2" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtyM1lbEe6zgPim6hxQEQ" name="gg3" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtyNFlbEe6zgPim6hxQEQ" name="gg4" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtyNVlbEe6zgPim6hxQEQ" name="gg5" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtyNllbEe6zgPim6hxQEQ" name="gg6" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHtyN1lbEe6zgPim6hxQEQ" name="gg7" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1G8FlbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali" specification="_JHiMAFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1G8VlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JH1G8llbEe6zgPim6hxQEQ" name="gg1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G81lbEe6zgPim6hxQEQ" name="gg2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G9FlbEe6zgPim6hxQEQ" name="gg3">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G9VlbEe6zgPim6hxQEQ" name="gg4">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G9llbEe6zgPim6hxQEQ" name="gg5">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G91lbEe6zgPim6hxQEQ" name="gg6">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G-FlbEe6zgPim6hxQEQ" name="gg7">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1G-VlbEe6zgPim6hxQEQ" type="_JHBOo1lbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>super();
+		this.s = s;
+		this.gg1 = gg1;
+		this.gg2 = gg2;
+		this.gg3 = gg3;
+		this.gg4 = gg4;
+		this.gg5 = gg5;
+		this.gg6 = gg6;
+		this.gg7 = gg7;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JHiMAFlbEe6zgPim6hxQEQ" name="TurniAssegnatiSettimanali" method="_JH1G8FlbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JHiMCVlbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JHiMCllbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JHiMAVlbEe6zgPim6hxQEQ" name="s" type="_JG_ZcFlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHiMAllbEe6zgPim6hxQEQ" name="gg1">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMA1lbEe6zgPim6hxQEQ" name="gg2">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMBFlbEe6zgPim6hxQEQ" name="gg3">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMBVlbEe6zgPim6hxQEQ" name="gg4">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMBllbEe6zgPim6hxQEQ" name="gg5">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMB1lbEe6zgPim6hxQEQ" name="gg6">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMCFlbEe6zgPim6hxQEQ" name="gg7">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHiMC1lbEe6zgPim6hxQEQ" type="_JHBOo1lbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JHCcwFlbEe6zgPim6hxQEQ" name="Turno">
+              <ownedAttribute xmi:id="_JHuZQFlbEe6zgPim6hxQEQ" name="idTurno" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHuZQllbEe6zgPim6hxQEQ" name="giorno" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHuZRFlbEe6zgPim6hxQEQ" name="tipoTurno" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_JHuZRllbEe6zgPim6hxQEQ" name="richiesta" visibility="package">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1G-llbEe6zgPim6hxQEQ" name="hashCode" specification="_JHCcwVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1G-1lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Objects.hash(giorno, idTurno, richiesta, tipoTurno);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1G_FlbEe6zgPim6hxQEQ" name="toString" specification="_JHCcxllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1G_VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return giorno + &quot; &quot; + tipoTurno + &quot;, richiesta:&quot; + richiesta ;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1G_llbEe6zgPim6hxQEQ" name="equals" specification="_JHo5tllbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1G_1lbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JH1HAFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Turno other = (Turno) obj;
+		return giorno == other.giorno &amp;&amp; idTurno == other.idTurno &amp;&amp; richiesta == other.richiesta
+				&amp;&amp; Objects.equals(tipoTurno, other.tipoTurno);
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HAVlbEe6zgPim6hxQEQ" name="getIdTurno" specification="_JHDD1FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HAllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return idTurno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HA1lbEe6zgPim6hxQEQ" name="setIdTurno" specification="_JHDD1llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HBFlbEe6zgPim6hxQEQ" name="idTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.idTurno = idTurno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HBVlbEe6zgPim6hxQEQ" name="getGiorno" specification="_JHDD2FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HBllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return giorno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HB1lbEe6zgPim6hxQEQ" name="setGiorno" specification="_JHDD2llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HCFlbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.giorno = giorno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HCVlbEe6zgPim6hxQEQ" name="getTipoTurno" specification="_JHDD3FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HCllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return tipoTurno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HC1lbEe6zgPim6hxQEQ" name="setTipoTurno" specification="_JHDD3llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HDFlbEe6zgPim6hxQEQ" name="tipoTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.tipoTurno = tipoTurno;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HDVlbEe6zgPim6hxQEQ" name="getRichiesta" specification="_JHDq4FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HDllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return richiesta;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HD1lbEe6zgPim6hxQEQ" name="setRichiesta" specification="_JHDq4llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HEFlbEe6zgPim6hxQEQ" name="richiesta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.richiesta = richiesta;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HEVlbEe6zgPim6hxQEQ" name="Turno" specification="_JHDq5FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HEllbEe6zgPim6hxQEQ" name="idTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1HE1lbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1HFFlbEe6zgPim6hxQEQ" name="tipoTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1HFVlbEe6zgPim6hxQEQ" name="richiesta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JH1HFllbEe6zgPim6hxQEQ" type="_JHCcwFlbEe6zgPim6hxQEQ" direction="return"/>
+                <language>java</language>
+                <body>super();
+		this.idTurno = idTurno;
+		this.giorno = giorno;
+		this.tipoTurno = tipoTurno;
+		this.richiesta = richiesta;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1HF1lbEe6zgPim6hxQEQ" name="isWeekEnd" specification="_JHDq7FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1HGFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>boolean b = false;
+		int k = this.giorno;
+		if(k == 5 || k == 6 ||
+			k == 12 || k == 13 ||
+			k == 19 || k == 20 ||
+			k == 26 || k == 27) {
+			b = true;
+		}
+		
+		return b;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JH1uAFlbEe6zgPim6hxQEQ" name="toStringCompleto" specification="_JHDq7llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JH1uAVlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if(this.tipoTurno.compareTo(&quot;M&quot;) == 0)
+			return &quot;Giorno &quot; + (this.giorno + 1) + &quot; mattina, di richiesta &quot; + this.richiesta;
+		if(this.tipoTurno.compareTo(&quot;P&quot;) == 0)
+			return &quot;Giorno &quot; + (this.giorno + 1) + &quot; pomeriggio, di richiesta &quot; + this.richiesta;
+		else
+			return &quot;Giorno &quot; + (this.giorno + 1) + &quot; sera, di richiesta &quot; + this.richiesta;
+			
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_JHCcwVlbEe6zgPim6hxQEQ" name="hashCode" method="_JH1G-llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHCcwllbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHCcxllbEe6zgPim6hxQEQ" name="toString" method="_JH1G_FlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD0FlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDD1FlbEe6zgPim6hxQEQ" name="getIdTurno" method="_JH1HAVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD1VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDD1llbEe6zgPim6hxQEQ" name="setIdTurno" method="_JH1HA1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD11lbEe6zgPim6hxQEQ" name="idTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDD2FlbEe6zgPim6hxQEQ" name="getGiorno" method="_JH1HBVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD2VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDD2llbEe6zgPim6hxQEQ" name="setGiorno" method="_JH1HB1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD21lbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDD3FlbEe6zgPim6hxQEQ" name="getTipoTurno" method="_JH1HCVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD3VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDD3llbEe6zgPim6hxQEQ" name="setTipoTurno" method="_JH1HC1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDD31lbEe6zgPim6hxQEQ" name="tipoTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDq4FlbEe6zgPim6hxQEQ" name="getRichiesta" method="_JH1HDVlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDq4VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDq4llbEe6zgPim6hxQEQ" name="setRichiesta" method="_JH1HD1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDq41lbEe6zgPim6hxQEQ" name="richiesta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDq5FlbEe6zgPim6hxQEQ" name="Turno" method="_JH1HEVlbEe6zgPim6hxQEQ">
+                <eAnnotations xmi:id="_JHDq6VlbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_JHDq6llbEe6zgPim6hxQEQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_JHDq5VlbEe6zgPim6hxQEQ" name="idTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHDq5llbEe6zgPim6hxQEQ" name="giorno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHDq51lbEe6zgPim6hxQEQ" name="tipoTurno">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHDq6FlbEe6zgPim6hxQEQ" name="richiesta">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_JHDq61lbEe6zgPim6hxQEQ" type="_JHCcwFlbEe6zgPim6hxQEQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDq7FlbEe6zgPim6hxQEQ" name="isWeekEnd" method="_JH1HF1lbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDq7VlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHDq7llbEe6zgPim6hxQEQ" name="toStringCompleto" method="_JH1uAFlbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHDq71lbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_JHo5tllbEe6zgPim6hxQEQ" name="equals" method="_JH1G_llbEe6zgPim6hxQEQ">
+                <ownedParameter xmi:id="_JHo5t1lbEe6zgPim6hxQEQ" name="obj" type="_JHkBMVlbEe6zgPim6hxQEQ"/>
+                <ownedParameter xmi:id="_JHpgwFlbEe6zgPim6hxQEQ" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH3jMFlbEe6zgPim6hxQEQ" name="" memberEnd="_JH3jMVlbEe6zgPim6hxQEQ _JHqH0FlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH3jMVlbEe6zgPim6hxQEQ" name="" type="_JG1BYFlbEe6zgPim6hxQEQ" association="_JH3jMFlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH3jM1lbEe6zgPim6hxQEQ" name="" memberEnd="_JH3jNFlbEe6zgPim6hxQEQ _JHqu4VlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH3jNFlbEe6zgPim6hxQEQ" name="" type="_JG1BYFlbEe6zgPim6hxQEQ" association="_JH3jM1lbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH3jNllbEe6zgPim6hxQEQ" name="" memberEnd="_JH3jN1lbEe6zgPim6hxQEQ _JHqu51lbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH3jN1lbEe6zgPim6hxQEQ" name="" type="_JG4ryVlbEe6zgPim6hxQEQ" association="_JH3jNllbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4KQVlbEe6zgPim6hxQEQ" name="" memberEnd="_JH4KQllbEe6zgPim6hxQEQ _JHqu6VlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4KQllbEe6zgPim6hxQEQ" name="" type="_JG4ryVlbEe6zgPim6hxQEQ" association="_JH4KQVlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4KRFlbEe6zgPim6hxQEQ" name="" memberEnd="_JH4KRVlbEe6zgPim6hxQEQ _JHrV8VlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4KRVlbEe6zgPim6hxQEQ" name="" type="_JG4ryVlbEe6zgPim6hxQEQ" association="_JH4KRFlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4KR1lbEe6zgPim6hxQEQ" name="" memberEnd="_JH4KSFlbEe6zgPim6hxQEQ _JHrV9FlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4KSFlbEe6zgPim6hxQEQ" name="" type="_JG4ryVlbEe6zgPim6hxQEQ" association="_JH4KR1lbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4KSllbEe6zgPim6hxQEQ" name="" memberEnd="_JH4KS1lbEe6zgPim6hxQEQ _JHrV9llbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4KS1lbEe6zgPim6hxQEQ" name="" type="_JG4ryVlbEe6zgPim6hxQEQ" association="_JH4KSllbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4KTVlbEe6zgPim6hxQEQ" name="" memberEnd="_JH4KTllbEe6zgPim6hxQEQ _JHrV-VlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4KTllbEe6zgPim6hxQEQ" name="" type="_JG4ryVlbEe6zgPim6hxQEQ" association="_JH4KTVlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4xUFlbEe6zgPim6hxQEQ" name="" memberEnd="_JH4xUVlbEe6zgPim6hxQEQ _JHskEFlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4xUVlbEe6zgPim6hxQEQ" name="" type="_JG89M1lbEe6zgPim6hxQEQ" association="_JH4xUFlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4xU1lbEe6zgPim6hxQEQ" name="" memberEnd="_JH4xVFlbEe6zgPim6hxQEQ _JHskEllbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4xVFlbEe6zgPim6hxQEQ" name="" type="_JG89M1lbEe6zgPim6hxQEQ" association="_JH4xU1lbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4xVllbEe6zgPim6hxQEQ" name="" memberEnd="_JH4xV1lbEe6zgPim6hxQEQ _JHskFVlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4xV1lbEe6zgPim6hxQEQ" name="" type="_JG89M1lbEe6zgPim6hxQEQ" association="_JH4xVllbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4xWVlbEe6zgPim6hxQEQ" name="" memberEnd="_JH4xWllbEe6zgPim6hxQEQ _JHskGFlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4xWllbEe6zgPim6hxQEQ" name="" type="_JG89M1lbEe6zgPim6hxQEQ" association="_JH4xWVlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4xXFlbEe6zgPim6hxQEQ" name="" memberEnd="_JH4xXVlbEe6zgPim6hxQEQ _JHskG1lbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4xXVlbEe6zgPim6hxQEQ" name="" type="_JG89M1lbEe6zgPim6hxQEQ" association="_JH4xXFlbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JH4xX1lbEe6zgPim6hxQEQ" name="" memberEnd="_JH4xYFlbEe6zgPim6hxQEQ _JHtyMFlbEe6zgPim6hxQEQ">
+              <ownedEnd xmi:id="_JH4xYFlbEe6zgPim6hxQEQ" name="" type="_JHBOo1lbEe6zgPim6hxQEQ" association="_JH4xX1lbEe6zgPim6hxQEQ"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_JGpbMFlbEe6zgPim6hxQEQ" name="db">
+            <packagedElement xmi:type="uml:Class" xmi:id="_JHeho1lbEe6zgPim6hxQEQ" name="Turni24HDao"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JGm-81lbEe6zgPim6hxQEQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JGnmAFlbEe6zgPim6hxQEQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JHcscFlbEe6zgPim6hxQEQ" name="Objects"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JHd6kFlbEe6zgPim6hxQEQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JHd6kllbEe6zgPim6hxQEQ" name="Collections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JHd6lFlbEe6zgPim6hxQEQ" name="Comparator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JHehoVlbEe6zgPim6hxQEQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JHgW0FlbEe6zgPim6hxQEQ" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JHgW0llbEe6zgPim6hxQEQ" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JHkBMFlbEe6zgPim6hxQEQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JHkBMVlbEe6zgPim6hxQEQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_JBdZMFlbEe6zgPim6hxQEQ">
+      <eAnnotations xmi:id="_JBdZMVlbEe6zgPim6hxQEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_JBdZMllbEe6zgPim6hxQEQ" base_Package="_I8ARcFlbEe6zgPim6hxQEQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JG22kVlbEe6zgPim6hxQEQ" base_Element="_JG2PgllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JG22kllbEe6zgPim6hxQEQ" base_Element="_JG2PgllbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JG22k1lbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JG4rwFlbEe6zgPim6hxQEQ" base_Element="_JG4EuFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JG4rwVlbEe6zgPim6hxQEQ" base_Element="_JG4EuFlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JG4rwllbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JG89MFlbEe6zgPim6hxQEQ" base_Element="_JG8WLVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JG89MVlbEe6zgPim6hxQEQ" base_Element="_JG8WLVlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JG89MllbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_JG9kQVlbEe6zgPim6hxQEQ" genericsValue="Staff, Integer" base_Element="_JG9kQFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JG-LUFlbEe6zgPim6hxQEQ" genericsValue="Staff, Integer" base_Element="_JG9kQllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JG-LUllbEe6zgPim6hxQEQ" genericsValue="Staff, Integer" base_Element="_JG-LUVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JG-LVFlbEe6zgPim6hxQEQ" genericsValue="Turno, Integer" base_Element="_JG-LU1lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHAnmllbEe6zgPim6hxQEQ" base_Element="_JHAnmFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHAnm1lbEe6zgPim6hxQEQ" base_Element="_JHAnmFlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHAnnFlbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHBOoFlbEe6zgPim6hxQEQ" base_Element="_JHAnnVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHBOoVlbEe6zgPim6hxQEQ" base_Element="_JHAnnVlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHBOollbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHCcw1lbEe6zgPim6hxQEQ" base_Element="_JHCcwVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHCcxFlbEe6zgPim6hxQEQ" base_Element="_JHCcwVlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHCcxVlbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHDD0VlbEe6zgPim6hxQEQ" base_Element="_JHCcxllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHDD0llbEe6zgPim6hxQEQ" base_Element="_JHCcxllbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHDD01lbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_JHcscVlbEe6zgPim6hxQEQ" base_Element="_JHcscFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHd6kVlbEe6zgPim6hxQEQ" base_Element="_JHd6kFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHd6k1lbEe6zgPim6hxQEQ" base_Element="_JHd6kllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHehoFlbEe6zgPim6hxQEQ" base_Element="_JHd6lFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHehollbEe6zgPim6hxQEQ" base_Element="_JHehoVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHehpFlbEe6zgPim6hxQEQ" base_Element="_JHeho1lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHgW0VlbEe6zgPim6hxQEQ" base_Element="_JHgW0FlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHgW01lbEe6zgPim6hxQEQ" base_Element="_JHgW0llbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JHkoQFlbEe6zgPim6hxQEQ" base_Element="_JHkBMVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHkoRFlbEe6zgPim6hxQEQ" base_Element="_JHkoQVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHkoRVlbEe6zgPim6hxQEQ" base_Element="_JHkoQVlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHkoRllbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHlPUVlbEe6zgPim6hxQEQ" base_Element="_JHkoR1lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHlPUllbEe6zgPim6hxQEQ" base_Element="_JHkoR1lbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHlPU1lbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_JHl2YFlbEe6zgPim6hxQEQ" genericsValue="Accoppiamenti" base_Element="_JHlPVVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JHl2aFlbEe6zgPim6hxQEQ" genericsValue="Accoppiamenti" base_Element="_JHl2YllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JHl2bFlbEe6zgPim6hxQEQ" genericsValue="Accoppiamenti" base_Element="_JHl2allbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JHmdc1lbEe6zgPim6hxQEQ" genericsValue="Turno" base_Element="_JHmdcVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JHmdd1lbEe6zgPim6hxQEQ" genericsValue="Staff" base_Element="_JHmddVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JHnEgFlbEe6zgPim6hxQEQ" genericsValue="Accoppiamenti" base_Element="_JHmdellbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Generics xmi:id="_JHnEiVlbEe6zgPim6hxQEQ" genericsValue="Accoppiamenti" base_Element="_JHnEgllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHnrk1lbEe6zgPim6hxQEQ" base_Element="_JHnrkFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHnrlFlbEe6zgPim6hxQEQ" base_Element="_JHnrkFlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHnrlVlbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_JHoSpVlbEe6zgPim6hxQEQ" genericsValue="Accoppiamenti" base_Element="_JHoSoVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHo5s1lbEe6zgPim6hxQEQ" base_Element="_JHo5sFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHo5tFlbEe6zgPim6hxQEQ" base_Element="_JHo5sFlbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHo5tVlbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHpgwVlbEe6zgPim6hxQEQ" base_Element="_JHo5tllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Annotations xmi:id="_JHpgwllbEe6zgPim6hxQEQ" base_Element="_JHo5tllbEe6zgPim6hxQEQ">
+    <annotations xmi:id="_JHpgw1lbEe6zgPim6hxQEQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHqu4FlbEe6zgPim6hxQEQ" base_Element="_JHqH0FlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHqu4llbEe6zgPim6hxQEQ" base_Element="_JHqu4VlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHqu5FlbEe6zgPim6hxQEQ" base_Element="_JHqu41lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHqu5llbEe6zgPim6hxQEQ" base_Element="_JHqu5VlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHqu6FlbEe6zgPim6hxQEQ" base_Element="_JHqu51lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHrV8FlbEe6zgPim6hxQEQ" base_Element="_JHqu6VlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHrV81lbEe6zgPim6hxQEQ" base_Element="_JHrV8VlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHrV-FlbEe6zgPim6hxQEQ" base_Element="_JHrV9llbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHrV-1lbEe6zgPim6hxQEQ" base_Element="_JHrV-VlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHrV_VlbEe6zgPim6hxQEQ" base_Element="_JHrV_FlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHrV_1lbEe6zgPim6hxQEQ" base_Element="_JHrV_llbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHr9AFlbEe6zgPim6hxQEQ" base_Element="_JHrWAFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHr9B1lbEe6zgPim6hxQEQ" base_Element="_JHr9BllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHskEVlbEe6zgPim6hxQEQ" base_Element="_JHskEFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHskFFlbEe6zgPim6hxQEQ" base_Element="_JHskEllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHskF1lbEe6zgPim6hxQEQ" base_Element="_JHskFVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHskGllbEe6zgPim6hxQEQ" base_Element="_JHskGFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHskHFlbEe6zgPim6hxQEQ" base_Element="_JHskG1lbEe6zgPim6hxQEQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JHtLIFlbEe6zgPim6hxQEQ" name="getTurniNonCompletati" method="_JHw1kFlbEe6zgPim6hxQEQ">
+      <ownedParameter xmi:id="_JHtLIVlbEe6zgPim6hxQEQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHtLI1lbEe6zgPim6hxQEQ" base_Element="_JHtLIllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHtLJVlbEe6zgPim6hxQEQ" base_Element="_JHtLJFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHtLJ1lbEe6zgPim6hxQEQ" base_Element="_JHtLJllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHtLKVlbEe6zgPim6hxQEQ" base_Element="_JHtLKFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHuZQVlbEe6zgPim6hxQEQ" base_Element="_JHuZQFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHuZQ1lbEe6zgPim6hxQEQ" base_Element="_JHuZQllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHuZRVlbEe6zgPim6hxQEQ" base_Element="_JHuZRFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JHuZR1lbEe6zgPim6hxQEQ" base_Element="_JHuZRllbEe6zgPim6hxQEQ"/>
+  <uml:OpaqueBehavior xmi:id="_JHw1kFlbEe6zgPim6hxQEQ" name="getTurniNonCompletati" specification="_JHtLIFlbEe6zgPim6hxQEQ">
+    <ownedParameter xmi:id="_JHw1kVlbEe6zgPim6hxQEQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>turniNonCompletati.clear();
+		int tot = 0;
+		for(Turno t : turni) {
+			int kk = 0;
+			for(Accoppiamenti a :miglioreSol ) {
+				if(t.equals(a.getTurno())) {
+					kk ++;
+				}
+			}
+			if(t.getRichiesta()>kk) {
+				turniNonCompletati.add(t);
+				tot += (t.getRichiesta() - kk);
+			}
+		}
+		return tot;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_JH3jMllbEe6zgPim6hxQEQ" base_Element="_JH3jMFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH3jNVlbEe6zgPim6hxQEQ" base_Element="_JH3jM1lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4KQFlbEe6zgPim6hxQEQ" base_Element="_JH3jNllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4KQ1lbEe6zgPim6hxQEQ" base_Element="_JH4KQVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4KRllbEe6zgPim6hxQEQ" base_Element="_JH4KRFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4KSVlbEe6zgPim6hxQEQ" base_Element="_JH4KR1lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4KTFlbEe6zgPim6hxQEQ" base_Element="_JH4KSllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4KT1lbEe6zgPim6hxQEQ" base_Element="_JH4KTVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4xUllbEe6zgPim6hxQEQ" base_Element="_JH4xUFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4xVVlbEe6zgPim6hxQEQ" base_Element="_JH4xU1lbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4xWFlbEe6zgPim6hxQEQ" base_Element="_JH4xVllbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4xW1lbEe6zgPim6hxQEQ" base_Element="_JH4xWVlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH4xXllbEe6zgPim6hxQEQ" base_Element="_JH4xXFlbEe6zgPim6hxQEQ"/>
+  <UMLLabProfile:Reference xmi:id="_JH5YYFlbEe6zgPim6hxQEQ" base_Element="_JH4xX1lbEe6zgPim6hxQEQ"/>
+</xmi:XMI>

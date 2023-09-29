@@ -33,7 +33,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 public class FXMLController {
 	private Model model;
 	private Risultati risultati;
-	List<Accoppiamenti> miglioreSol;
+	private List<Accoppiamenti> miglioreSol;
 	
     @FXML // fx:id="tabPane"
     private TabPane tabPane;
@@ -246,7 +246,7 @@ public class FXMLController {
 				+ "3 -- Massimo 2 notti di fila, e dopo notte non posso fare la mattina o il pomeriggio dopo (smonto) \n\n"
 				+ "4 -- Se faccio pomeriggio il giorno dopo non posso fare mattina\n\n"
 				+ "5 -- Non si possono superare 1/3 delle ore in notti\n\n"
-				+ "6 -- Non si possono siperare 1/2 delle ore in mattine o pomeriggi\n\n";
+				+ "6 -- Non si possono superare 1/2 delle ore in mattine o pomeriggi\n\n";
 		return s;
 	}
 

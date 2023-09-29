@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class GiorniOff {
 	int idStaff;
-	int Giorno;
+	int giorno;
 	
 	public int getIdStaff() {
 		return idStaff;
@@ -13,14 +13,14 @@ public class GiorniOff {
 		this.idStaff = idStaff;
 	}
 	public int getGiorno() {
-		return Giorno;
+		return giorno;
 	}
 	public void setGiorno(int giorno) {
-		Giorno = giorno;
+		this.giorno = giorno;
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(Giorno, idStaff);
+		return Objects.hash(giorno, idStaff);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -31,12 +31,12 @@ public class GiorniOff {
 		if (getClass() != obj.getClass())
 			return false;
 		GiorniOff other = (GiorniOff) obj;
-		return Giorno == other.Giorno && idStaff == other.idStaff;
+		return giorno == other.giorno && idStaff == other.idStaff;
 	}
 	public GiorniOff(int idStaff, int giorno) {
 		super();
 		this.idStaff = idStaff;
-		Giorno = giorno;
+		this.giorno = giorno;
 	}
 	
 	

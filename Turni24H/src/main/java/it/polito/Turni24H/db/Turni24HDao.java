@@ -85,7 +85,7 @@ public class Turni24HDao {
 			ResultSet res = st.executeQuery();
 
 			while (res.next()) {
-				result.add(new RichiestaTurni(res.getInt("StaffID"), res.getInt("Giorno"),res.getString("TipoTurno"),res.getInt("Peso"),true));
+				result.add(new RichiestaTurni(res.getInt("StaffID"), res.getInt("Giorno"),res.getString("TipoTurno"),true, res.getInt("Peso")));
 			}
 			conn.close();
 		} catch (SQLException e) {
@@ -106,7 +106,7 @@ public class Turni24HDao {
 			ResultSet res = st.executeQuery();
 
 			while (res.next()) {
-				result.add(new RichiestaTurni(res.getInt("StaffID"), res.getInt("Giorno"),res.getString("TipoTurno"),res.getInt("Peso"),false));
+				result.add(new RichiestaTurni(res.getInt("StaffID"), res.getInt("Giorno"),res.getString("TipoTurno"),false, res.getInt("Peso")));
 			}
 			conn.close();
 		} catch (SQLException e) {

@@ -3,19 +3,21 @@ package it.polito.Turni24H.model;
 import java.util.Objects;
 
 public class RichiestaTurni {
-	int idStaff;
-	int giorno;
-	String tipoTurno;
-	int peso;
-	boolean isOffDay; //true se richiesto giorno OFF, false se richiesto turno ON
+	private int idStaff;
+	private int giorno;
+	private String tipoTurno;
+	private	boolean isOffDay; //true se richiesto giorno OFF, false se richiesto turno ON
+	private int peso;
 	
-	public RichiestaTurni(int idStaff, int giorno, String tipoTurno, int peso, boolean isOffDay) {
+
+
+	public RichiestaTurni(int idStaff, int giorno, String tipoTurno, boolean isOffDay, int peso) {
 		super();
 		this.idStaff = idStaff;
 		this.giorno = giorno;
 		this.tipoTurno = tipoTurno;
-		this.peso = peso;
 		this.isOffDay = isOffDay;
+		this.peso = peso;
 	}
 
 	public int getIdStaff() {
@@ -42,14 +44,6 @@ public class RichiestaTurni {
 		this.tipoTurno = tipoTurno;
 	}
 
-	public int getPeso() {
-		return peso;
-	}
-
-	public void setPeso(int peso) {
-		this.peso = peso;
-	}
-
 	public boolean isOffDay() {
 		return isOffDay;
 	}
@@ -57,6 +51,8 @@ public class RichiestaTurni {
 	public void setOffDay(boolean isOffDay) {
 		this.isOffDay = isOffDay;
 	}
+
+
 
 	@Override
 	public int hashCode() {
@@ -75,5 +71,15 @@ public class RichiestaTurni {
 		return giorno == other.giorno && idStaff == other.idStaff && isOffDay == other.isOffDay && peso == other.peso
 				&& Objects.equals(tipoTurno, other.tipoTurno);
 	}
+
+	public int getPeso() {
+		return peso;
+	}
+
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+	
+	
 	
 }

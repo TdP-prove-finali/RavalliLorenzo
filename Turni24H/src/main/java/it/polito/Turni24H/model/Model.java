@@ -64,6 +64,7 @@ public class Model {
 		this.turniTotaliRichiesti = turniTot(turni);
 	}
 
+	//prima parte metodo ricorsivo
 	public List<Accoppiamenti> cercaLista(int profondita, boolean richiestiOff, boolean richiestiOn, int weekend, int straordinario){	
 		
 		List<Accoppiamenti> parziale = new ArrayList<>();
@@ -76,9 +77,10 @@ public class Model {
 			aggiungiTurni(parziale, richiestiOff, weekend, straordinario);		//aggiungo i turni richiesti 
 		}
 
+		//prove in base alla richiesta dell'utente per il calcolo turni
 		for(int i = 0; i< profondita ; i++) {
 			contatore = 0; 
-			Collections.shuffle(turni);		//ordino casualmete i turni
+			Collections.shuffle(turni);		//ordino casualmete i turni 
 			cerca(parziale, richiestiOff, weekend, straordinario, turniTotaliRichiesti, migliorPunteggio);	
 			System.out.println(i+" = "+ miglioriAccoppiamenti.size()+ " di punteggio: " + this.migliorPunteggio);
 		}
@@ -88,11 +90,12 @@ public class Model {
 		return miglioriAccoppiamenti;
 	}
 	
+	//metodo che aggiunge i turni su eventuale richiesta
 	private void aggiungiTurni(List<Accoppiamenti> parziale,boolean richiestiOff, int weekend, int straordinario){
 			for(Turno t : turni) {
 				if(turniCompletati(t, parziale)==false) {
 					for(RichiestaTurni r : this.richiesteTurni) {
-						if(r.isOffDay==false && r.getGiorno() == t.getGiorno() && 
+						if(r.isOffDay()==false && r.getGiorno() == t.getGiorno() && 
 									r.getTipoTurno().compareTo(t.getTipoTurno()) == 0) {
 							for(Staff s : allStaff) {
 								if(s.getId() == r.getIdStaff()) {
@@ -110,8 +113,9 @@ public class Model {
 			}
 	}
 
+	//ricorsione
 	private void cerca(List<Accoppiamenti> parziale, boolean richiestiOff, int weekend, int straordinario,int turniDisponibili, int punteggio) {
-		//cond Terminazione con o suluzione ottima oppure al raggiungimento di un limite di tentatativi con un contatore
+		//cond Terminazione con suluzione ottima o al raggiungimento di un limite di tentatativi con un contatore
 		if(solTrovata || contatore == 15000)
 			return;
 		
@@ -134,7 +138,7 @@ public class Model {
 			
 		}
 		
-		
+		//prima vengono aggiunti dipendenti senza straordinario
 		for(Turno t : turni) {
 			if(turniCompletati(t, parziale)==false) {
 				for(Staff s : allStaff) {
@@ -149,6 +153,7 @@ public class Model {
 
 			}
 		}
+		//nel caso in cui gli straordinari siano attivi e i turni non sono completati
 		if(straordinario !=0){
 			for(Turno t : turni) {
 				if(turniCompletati(t, parziale)==false) {
@@ -167,6 +172,7 @@ public class Model {
 		}
 	}
 	
+	//metodo che confronta le soluzioni della ricorsione
 	private int calcolaPunteggio(List<Accoppiamenti> lista) {
 		int punteggio = 0;
 		
@@ -228,7 +234,7 @@ public class Model {
 		return b;
 	}
 
-	//metodo per vedere se dipendente è disponibile a entrare a far parte del turno
+	//metodo che controlla se il dipendente è disponibile a entrare a far parte del turno richiesto
 	private boolean isDisponibile(List<Accoppiamenti> parziale, Staff s, Turno t, boolean richiestiOff, int weekend, int straordinari) {
 		List<Turno> turniAssegnati = new ArrayList<>();
 		for(Accoppiamenti a : parziale) {
@@ -382,9 +388,12 @@ public class Model {
 		
 	}
 	
-	//vede quali turni sono stati assegnati a settimana per dipendente (utile per la classe controller)
+	//metodo che controlla e ritorna
+	//quali turni sono stati assegnati a settimana per dipendente
+	//(utile per la classe controller)
 	public List<TurniAssegnatiSettimanali> generaListaSettimana(int i){
-		String gg1; 	//inizializzati a riposo
+		//inizializzati a riposo
+		String gg1; 	
 		String gg2;
 		String gg3;
 		String gg4;
